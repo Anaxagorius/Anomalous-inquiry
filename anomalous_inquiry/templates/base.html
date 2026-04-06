@@ -1,1 +1,30 @@
-<html><body>{% block content %}{% endblock %}</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ page_title }} — Anomalous Inquiry{% endblock %}</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="alternate" type="application/rss+xml" title="Anomalous Inquiry RSS" href="/rss.xml">
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="site-title" href="/">Anomalous Inquiry</a>
+      <ul>
+        <li><a href="/articles">Articles</a></li>
+        <li><a href="/tags">Tags</a></li>
+        <li><a href="/timeline">Timeline</a></li>
+        <li><a href="/methodology">Methodology</a></li>
+        <li><a href="/rss.xml">RSS</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer>
+    <p>Anomalous Inquiry — neutral documentary research. No validation claims made.</p>
+  </footer>
+</body>
+</html>

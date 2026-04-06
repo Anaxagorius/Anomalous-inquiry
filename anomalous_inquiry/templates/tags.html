@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Tag Index</h1>
+{% if tags %}
+<ul class="tag-index">
+  {% for tag in tags %}
+  <li>
+    <a class="tag" href="/tags/{{ tag.0 }}">{{ tag.0 }}</a>
+    <span class="tag-count">({{ tag.1 }})</span>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No tags yet.</p>
+{% endif %}
+{% endblock %}

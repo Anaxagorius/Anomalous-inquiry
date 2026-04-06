@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="full-article">
+  <header class="article-header">
+    <h1>{{ article.title }}</h1>
+    <p class="article-meta">
+      Published: <time>{{ article.published }}</time>
+      {% if article.tags %}
+      &nbsp;|&nbsp; Tags:
+      {% for tag in article.tags %}
+        <a class="tag" href="/tags/{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+      {% endif %}
+    </p>
+    <p class="article-actions">
+      <a href="/articles/{{ article.slug }}/pdf">Download PDF</a>
+    </p>
+  </header>
+
+  <div class="article-body">
+    {{ article.body_html | safe }}
+  </div>
+
+  <section class="citation-box">
+    <h3>Cite This Article</h3>
+    <p class="citation-text">{{ citation }}</p>
+    <p class="citation-switch">
+      {% if citation_style == "apa" %}
+        <strong>APA</strong> &nbsp;|&nbsp; <a href="?citation=chicago">Chicago</a>
+      {% else %}
+        <a href="?citation=apa">APA</a> &nbsp;|&nbsp; <strong>Chicago</strong>
+      {% endif %}
+    </p>
+  </section>
+
+  <section class="comments">
+    <h3>Comments</h3>
+    {% if comments %}
+    <ul class="comment-list">
+      {% for c in comments %}
+      <li class="comment">
+        <p>{{ c.content }}</p>
+        <span class="comment-date">{{ c.submitted_at }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No approved comments yet.</p>
+    {% endif %}
+
+    <h4>Submit an Anonymous Comment</h4>
+    <form method="post" action="/articles/{{ article.slug }}/comments">
+      <textarea name="content" rows="5" placeholder="Your comment (anonymous, subject to moderation)…" required></textarea>
+      <button type="submit">Submit for Moderation</button>
+    </form>
+  </section>
+</article>
+{% endblock %}

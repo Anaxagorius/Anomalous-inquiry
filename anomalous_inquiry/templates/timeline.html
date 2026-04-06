@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Anomalous Events Timeline</h1>
+<p class="timeline-desc">A chronological index of documented anomalous reports, from UAP encounters to Close Encounters of the first through fifth kind.</p>
+
+{% if events %}
+<ol class="timeline">
+  {% for e in events %}
+  <li class="timeline-event category-{{ e.category | lower | replace(from=" ", to="-") }}">
+    <div class="timeline-date">{{ e.date }}</div>
+    <div class="timeline-body">
+      <h3>{{ e.title }}</h3>
+      <p class="timeline-category">Category: {{ e.category }}</p>
+      <p>{{ e.description }}</p>
+      {% if e.sources %}
+      <ul class="sources">
+        {% for src in e.sources %}
+        <li><cite>{{ src }}</cite></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>
+{% else %}
+<p>No timeline events loaded yet.</p>
+{% endif %}
+{% endblock %}

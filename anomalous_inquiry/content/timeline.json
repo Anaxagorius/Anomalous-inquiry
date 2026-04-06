@@ -1,5 +1,15 @@
 [
   {
+    "date": "1800-01-01",
+    "title": "Pre-Modern Aerial Phenomena: Historical Context (Antiquity – 19th Century)",
+    "description": "Accounts of unusual aerial or luminous phenomena appear across many cultures and centuries, including Roman historical chronicles, medieval European manuscripts, and Asian and Middle Eastern records. These pre-modern reports are included as foundational historical context. They cannot be classified under the Hynek CE system due to the absence of modern corroboration, standardised observation methods, or trained witnesses. CE classification begins with the modern era. Classification: Not applicable (pre-modern context).",
+    "category": "UAP",
+    "sources": [
+      "Vallée, J., Anatomy of a Phenomenon (1965)",
+      "Keel, J., Operation Trojan Horse (1970)"
+    ]
+  },
+  {
     "date": "1882-02-20",
     "title": "Society for Psychical Research Founded",
     "description": "A group of Cambridge scholars, philosophers, and scientists establish the Society for Psychical Research (SPR) in London — the first organisation to apply systematic empirical methods to the investigation of telepathy, clairvoyance, mediumship, and apparitions. Founding members include Henry Sidgwick, Frederic Myers, and Edmund Gurney.",
@@ -10,6 +20,18 @@
     ]
   },
   {
+    "date": "1896-11-17",
+    "title": "Mystery Airship Wave (USA)",
+    "description": "Beginning in November 1896, widespread sightings of large, slow-moving aerial objects resembling dirigibles — but far in advance of any known airship technology of the period — are reported across multiple U.S. states including California, Nebraska, Kansas, and Texas. Reports describe structured craft with searchlights, propellers, and sometimes occupants. The wave continues through mid-1897. No conventional explanation has accounted for all reported cases. Classification: CE-1 (distant visual sightings of structured aerial objects).",
+    "category": "CE1",
+    "sources": [
+      "Clark, J., The UFO Encyclopedia (1998)",
+      "Vallée, J., Passport to Magonia (1969)",
+      "Bartholomew, R., UFOs and Alien Contact: Two Centuries of Mystery (1998)"
+    ],
+    "article_slug": "mystery-airship-wave-1896"
+  },
+  {
     "date": "1930-01-01",
     "title": "J.B. Rhine Establishes ESP Laboratory at Duke University",
     "description": "Joseph Banks Rhine, working under psychologist William McDougall at Duke University, begins systematic forced-choice experiments using Zener cards to test for extrasensory perception. Rhine's programme establishes the first academic parapsychology laboratory and introduces the term 'ESP' into scientific discourse.",
@@ -18,6 +40,18 @@
       "J.B. Rhine, Extra-Sensory Perception (1934)",
       "Rhine Research Center archives"
     ]
+  },
+  {
+    "date": "1942-02-25",
+    "title": "Battle of Los Angeles",
+    "description": "In the early hours of February 25, 1942, U.S. Army anti-aircraft batteries opened fire over Los Angeles following radar tracking of unidentified aerial objects moving across the city. Approximately 1,400 rounds were expended. No aircraft were shot down and no confirmed wreckage was recovered. Several civilians died from heart attacks and falling shell fragments. The Army initially suggested aircraft; the Navy Secretary attributed it to 'war nerves'. The incident has never been fully explained. Classification: CE-1 (visual sightings with radar tracking and military response).",
+    "category": "CE1",
+    "sources": [
+      "U.S. Army Western Defense Command Report (1942)",
+      "Los Angeles Times, February 26, 1942",
+      "McDonald, J., Atmospheric physics commentary (1968)"
+    ],
+    "article_slug": "battle-of-los-angeles-1942"
   },
   {
     "date": "1944-01-01",
@@ -50,7 +84,8 @@
       "Roswell Daily Record, July 8, 1947",
       "Associated Press wire, July 8, 1947",
       "USAF Report on Roswell, 1994"
-    ]
+    ],
+    "article_slug": "roswell-1947"
   },
   {
     "date": "1947-12-30",
@@ -80,7 +115,8 @@
     "sources": [
       "Project Blue Book files, Case 1501",
       "Washington Post, July 21, 1952"
-    ]
+    ],
+    "article_slug": "washington-dc-radar-1952"
   },
   {
     "date": "1953-01-01",
@@ -113,6 +149,30 @@
       "Project Blue Book investigation report",
       "Coral and Jim Lorenzen, UFOs: The Whole Story (1969)"
     ]
+  },
+  {
+    "date": "1966-04-06",
+    "title": "Westall School Incident (Australia)",
+    "description": "On the morning of April 6, 1966, more than 200 students and teachers at Westall High School and State School in Clayton South, Melbourne, witnessed an unidentified object descend into an adjacent paddock. Several students approached and reported a round, silvery-grey craft resting briefly before departing rapidly, leaving a circular impression in the grass. Military and civilian personnel arrived shortly afterwards and instructed witnesses not to discuss the event. The incident remains unexplained. Classification: CE-1 / CE-3 (close visual sighting; possible ground contact and entity reports by some witnesses).",
+    "category": "CE1",
+    "sources": [
+      "Westall witness interviews, compiled 1966 and subsequently",
+      "Vallée, J., Dimensions (1990)",
+      "Westall '66: A Suburban UFO Mystery (2010 documentary)"
+    ],
+    "article_slug": "westall-1966"
+  },
+  {
+    "date": "1967-03-16",
+    "title": "Malmstrom AFB Missile Shutdown Incident",
+    "description": "On March 16, 1967, ten Minuteman I ICBM launch facilities (LF) at Echo Flight, Malmstrom Air Force Base, Montana, went offline in rapid succession. Launch officer Captain Robert Salas reports that security personnel had alerted him to a glowing red object hovering above the launch control facility at the time of the shutdowns. Similar shutdowns were reported at Oscar Flight later the same month. Declassified U.S. Air Force documents confirm the malfunctions; the cause was officially attributed to a 'spurious signal' in the logic coupler. Robert Hastings's subsequent research located multiple witnesses. Classification: CE-2 (UAP sighting with coincident equipment effects).",
+    "category": "CE2",
+    "sources": [
+      "Hastings, R., UFOs and Nukes: Extraordinary Encounters at Nuclear Weapons Sites (2008)",
+      "Salas, R., declassified USAF testimony",
+      "USAF Missile Incident Report, Malmstrom AFB (1967, declassified)"
+    ],
+    "article_slug": "malmstrom-afb-1967"
   },
   {
     "date": "1969-12-17",
@@ -172,7 +232,8 @@
     "sources": [
       "DIA Report: Iran: Unidentified Flying Object, September 19, 1976 (declassified)",
       "Kean, L., UFOs: Generals, Pilots, and Government Officials Go on the Record (2010)"
-    ]
+    ],
+    "article_slug": "tehran-1976-jet-intercept"
   },
   {
     "date": "1979-01-01",
@@ -192,7 +253,8 @@
     "sources": [
       "Halt, C., Memorandum to UK Ministry of Defence, January 13, 1981 (declassified 1983)",
       "UK National Archives, UFO Files series (2008–2013)"
-    ]
+    ],
+    "article_slug": "rendlesham-forest-incident"
   },
   {
     "date": "1989-11-29",
@@ -203,7 +265,8 @@
       "Belgian Air Force investigation, released publicly 1990",
       "Meessen, A., Journal of Scientific Exploration 23(3), 2009",
       "Kean, L., UFOs: Generals, Pilots, and Government Officials Go on the Record (2010), Chapter 1"
-    ]
+    ],
+    "article_slug": "belgian-ufo-wave-1989"
   },
   {
     "date": "1994-01-01",
@@ -213,6 +276,18 @@
     "sources": [
       "Bem, D.J. and Honorton, C., Psychological Bulletin 115(1), 4–18 (1994)"
     ]
+  },
+  {
+    "date": "1994-09-16",
+    "title": "Ariel School Encounter (Zimbabwe)",
+    "description": "On September 16, 1994, approximately 62 schoolchildren at Ariel School in Ruwa, Zimbabwe, reported observing one or more craft land in a field adjacent to the school during morning break. Several children reported approaching and observing entities near the craft. Psychiatrist Dr John Mack of Harvard Medical School and journalist Cynthia Hind interviewed the children shortly afterwards. The children's drawings and descriptions showed notable consistency. No conventional explanation has been established. Classification: CE-3 (alleged landed object with entity observation).",
+    "category": "CE3",
+    "sources": [
+      "Mack, J., Harvard child interviews and witness documentation (1994)",
+      "Hind, C., UFO AfriNews (1994)",
+      "Randall, R., Ariel Phenomenon (2022 documentary)"
+    ],
+    "article_slug": "ariel-school-1994"
   },
   {
     "date": "1995-11-28",
@@ -234,7 +309,8 @@
       "National UFO Reporting Center, March 1997 database",
       "Symington, F., testimony and interviews, 2007",
       "Kitei, L., The Phoenix Lights (2004)"
-    ]
+    ],
+    "article_slug": "phoenix-lights-1997"
   },
   {
     "date": "2001-05-09",
@@ -265,7 +341,8 @@
       "DoD FOIA release, April 2020",
       "New York Times, December 16, 2017",
       "UAPTF Preliminary Assessment, 2021"
-    ]
+    ],
+    "article_slug": "nimitz-2004"
   },
   {
     "date": "2009-01-01",

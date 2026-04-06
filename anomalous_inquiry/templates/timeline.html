@@ -9,7 +9,13 @@
   <li class="timeline-event category-{{ e.category | lower | replace(from=" ", to="-") }}">
     <div class="timeline-date">{{ e.date }}</div>
     <div class="timeline-body">
-      <h3>{{ e.title }}</h3>
+      <h3>
+        {% if e.article_slug %}
+        <a href="/articles/{{ e.article_slug }}">{{ e.title }}</a>
+        {% else %}
+        {{ e.title }}
+        {% endif %}
+      </h3>
       <p class="timeline-category">Category: {{ e.category }}</p>
       <p>{{ e.description }}</p>
       {% if e.sources %}

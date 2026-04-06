@@ -46,6 +46,8 @@ pub struct TimelineEvent {
     pub description: String,
     pub category: String,
     pub sources: Vec<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub article_slug: Option<String>,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]

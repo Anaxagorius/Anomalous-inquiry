@@ -23,7 +23,19 @@ pub struct AppState {
 
 impl AppState {
     pub fn load() -> Self {
-        let tera = Tera::new("templates/**/*").expect("Failed to load Tera templates");
+        let mut tera = Tera::default();
+        tera.add_raw_templates(vec![
+            ("base.html",          include_str!("../templates/base.html")),
+            ("home.html",          include_str!("../templates/home.html")),
+            ("article.html",       include_str!("../templates/article.html")),
+            ("tag.html",           include_str!("../templates/tag.html")),
+            ("tags.html",          include_str!("../templates/tags.html")),
+            ("timeline.html",      include_str!("../templates/timeline.html")),
+            ("organizations.html", include_str!("../templates/organizations.html")),
+            ("methodology.html",   include_str!("../templates/methodology.html")),
+            ("admin/login.html",     include_str!("../templates/admin/login.html")),
+            ("admin/dashboard.html", include_str!("../templates/admin/dashboard.html")),
+        ]).expect("Failed to load Tera templates");
         let articles = load_articles();
         let comments = load_comments();
         let timeline = load_timeline();

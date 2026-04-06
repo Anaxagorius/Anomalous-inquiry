@@ -1,0 +1,17 @@
+use axum::{routing::get, Router, response::IntoResponse};
+use crate::auth::HtmlTemplate;
+use crate::state::AppState;
+use crate::templates::{UapTemplate, NimitzTemplate, RoswellTemplate, CeArchiveTemplate};
+
+pub fn routes() -> Router<AppState> {
+    Router::new()
+        .route("/", get(hub))
+        .route("/nimitz", get(nimitz))
+        .route("/roswell", get(roswell))
+        .route("/ce-archive", get(ce_archive))
+}
+
+async fn hub() -> impl IntoResponse { HtmlTemplate(UapTemplate) }
+async fn nimitz() -> impl IntoResponse { HtmlTemplate(NimitzTemplate) }
+async fn roswell() -> impl IntoResponse { HtmlTemplate(RoswellTemplate) }
+async fn ce_archive() -> impl IntoResponse { HtmlTemplate(CeArchiveTemplate) }

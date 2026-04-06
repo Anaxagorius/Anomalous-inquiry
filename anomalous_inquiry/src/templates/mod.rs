@@ -1,5 +1,5 @@
 use askama::Template;
-use crate::state::{Article, Comment, Organization, TimelineEvent, JournalEntry};
+use crate::state::{Organization, TimelineEvent, JournalEntry};
 
 // Auth & admin
 #[derive(Template)] #[template(path = "landing.html")] pub struct LandingTemplate;
@@ -8,17 +8,11 @@ use crate::state::{Article, Comment, Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "auth_signup.html")] pub struct SignupTemplate { pub error: Option<String> }
 #[derive(Template)] #[template(path = "admin_login.html")] pub struct AdminLoginTemplate { pub error: Option<String> }
 #[derive(Template)] #[template(path = "admin_change_password.html")] pub struct AdminChangePasswordTemplate { pub error: Option<String>, pub forced: bool }
-#[derive(Template)] #[template(path = "admin_dashboard.html")] pub struct AdminDashboardTemplate { pub comments: Vec<Comment> }
-
-// Articles
-#[derive(Template)] #[template(path = "article_list.html")] pub struct ArticleListTemplate { pub articles: Vec<Article> }
-#[derive(Template)] #[template(path = "article.html")] pub struct ArticleTemplate { pub article: Article, pub comments: Vec<Comment> }
+#[derive(Template)] #[template(path = "admin_dashboard.html")] pub struct AdminDashboardTemplate;
 
 // Data pages
 #[derive(Template)] #[template(path = "timeline.html")] pub struct TimelineTemplate { pub events: Vec<TimelineEvent> }
 #[derive(Template)] #[template(path = "organizations.html")] pub struct OrganizationsTemplate { pub organizations: Vec<Organization> }
-#[derive(Template)] #[template(path = "tags.html")] pub struct TagsTemplate { pub tags: Vec<(String, usize)> }
-#[derive(Template)] #[template(path = "tag.html")] pub struct TagTemplate { pub tag: String, pub articles: Vec<Article> }
 
 // Journal
 #[derive(Template)] #[template(path = "journal_admin.html")] pub struct AdminJournalTemplate { pub entries: Vec<JournalEntry>, pub error: Option<String> }
@@ -45,6 +39,13 @@ use crate::state::{Article, Comment, Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "nimitz.html")] pub struct NimitzTemplate;
 #[derive(Template)] #[template(path = "roswell.html")] pub struct RoswellTemplate;
 #[derive(Template)] #[template(path = "ce_archive.html")] pub struct CeArchiveTemplate;
+#[derive(Template)] #[template(path = "phoenix_lights.html")] pub struct PhoenixLightsTemplate;
+#[derive(Template)] #[template(path = "rendlesham.html")] pub struct RendleshamTemplate;
+#[derive(Template)] #[template(path = "belgian_wave.html")] pub struct BelgianWaveTemplate;
+
+// Survival sub-pages
+#[derive(Template)] #[template(path = "nde.html")] pub struct NdeTemplate;
+#[derive(Template)] #[template(path = "mind_brain.html")] pub struct MindBrainTemplate;
 
 // Altered states sub-pages
 #[derive(Template)] #[template(path = "obe.html")] pub struct ObeTemplate;

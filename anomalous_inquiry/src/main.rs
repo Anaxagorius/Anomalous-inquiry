@@ -2,12 +2,9 @@ mod state;
 mod auth;
 mod admin;
 mod templates;
-mod articles;
 mod journal;
 mod organizations;
 mod timeline;
-mod tags;
-mod rss;
 mod parapsychology;
 mod uap;
 mod survival;
@@ -34,12 +31,9 @@ async fn main() -> anyhow::Result<()> {
         .route("/favicon.svg", get(favicon))
         .nest("/admin", admin::routes())
         .nest("/auth", auth::routes())
-        .nest("/articles", articles::routes())
         .nest("/journal", journal::routes())
         .nest("/organizations", organizations::routes())
         .nest("/timeline", timeline::routes())
-        .nest("/tags", tags::routes())
-        .nest("/rss.xml", rss::routes())
         .nest("/parapsychology", parapsychology::routes())
         .nest("/uap", uap::routes())
         .nest("/survival", survival::routes())

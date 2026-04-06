@@ -1,7 +1,7 @@
 use axum::{
-    routing::{get, post},
+    routing::get,
     Form, Router,
-    extract::{State, Path},
+    extract::State,
     response::IntoResponse,
     http::{StatusCode, header},
 };
@@ -10,8 +10,7 @@ use tower_cookies::{Cookie, Cookies};
 use argon2::{Argon2, PasswordHasher, PasswordVerifier};
 use argon2::password_hash::{SaltString, PasswordHash};
 use jsonwebtoken::{encode, decode, Header, Validation, EncodingKey, DecodingKey};
-use uuid::Uuid;
-use crate::state::{AppState, Comment, ADMIN_USERNAME, save_comments};
+use crate::state::{AppState, ADMIN_USERNAME};
 use crate::auth::HtmlTemplate;
 use crate::templates::{AdminLoginTemplate, AdminChangePasswordTemplate, AdminDashboardTemplate};
 
@@ -42,8 +41,6 @@ pub fn routes() -> Router<AppState> {
         .route("/change-password", get(admin_change_password_page).post(admin_change_password_post))
         .route("/logout", get(admin_logout))
         .route("/", get(admin_dashboard))
-        .route("/comments/:id/approve", post(approve_comment))
-        .route("/comments/:id/reject", post(reject_comment))
 }
 
 pub async fn admin_login_page() -> impl IntoResponse {
@@ -135,34 +132,7 @@ pub async fn admin_dashboard(State(state): State<AppState>, cookies: Cookies) ->
         None => return (StatusCode::FOUND, [(header::LOCATION, "/admin/login")]).into_response(),
     };
     let _ = claims;
-    let comments: Vec<Comment> = state.comments.read().await.iter().cloned().collect();
-    HtmlTemplate(AdminDashboardTemplate { comments }).into_response()
-}
-
-async fn approve_comment(State(state): State<AppState>, cookies: Cookies, Path(id): Path<Uuid>) -> impl IntoResponse {
-    if !is_admin(&state, &cookies) {
-        return (StatusCode::FOUND, [(header::LOCATION, "/admin/login")]).into_response();
-    }
-    let mut comments = state.comments.write().await;
-    if let Some(c) = comments.iter_mut().find(|c| c.id == id) {
-        c.approved = true;
-    }
-    let snapshot = comments.clone();
-    drop(comments);
-    save_comments(&snapshot).await;
-    (StatusCode::FOUND, [(header::LOCATION, "/admin")]).into_response()
-}
-
-async fn reject_comment(State(state): State<AppState>, cookies: Cookies, Path(id): Path<Uuid>) -> impl IntoResponse {
-    if !is_admin(&state, &cookies) {
-        return (StatusCode::FOUND, [(header::LOCATION, "/admin/login")]).into_response();
-    }
-    let mut comments = state.comments.write().await;
-    comments.retain(|c| c.id != id);
-    let snapshot = comments.clone();
-    drop(comments);
-    save_comments(&snapshot).await;
-    (StatusCode::FOUND, [(header::LOCATION, "/admin")]).into_response()
+    HtmlTemplate(AdminDashboardTemplate).into_response()
 }
 
 pub fn get_admin_claims(state: &AppState, cookies: &Cookies) -> Option<AdminClaims> {

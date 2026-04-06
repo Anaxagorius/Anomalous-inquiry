@@ -9,12 +9,23 @@ pub mod timeline;
 
 use axum::{
     Router,
+    http::header,
     routing::{get, post},
+    response::IntoResponse,
 };
 use crate::state::AppState;
 
+async fn styles_css() -> impl IntoResponse {
+    (
+        [(header::CONTENT_TYPE, "text/css")],
+        include_str!("../../static/styles.css"),
+    )
+}
+
 pub fn router(state: AppState) -> Router {
     Router::new()
+        // static assets
+        .route("/static/styles.css", get(styles_css))
         // public
         .route("/", get(articles::home))
         .route("/articles", get(articles::list))

@@ -4,14 +4,11 @@ mod render;
 mod routes;
 mod state;
 
-use tower_http::services::ServeDir;
-
 #[tokio::main]
 async fn main() {
     let state = state::AppState::load();
 
-    let app = routes::router(state)
-        .nest_service("/static", ServeDir::new("static"));
+    let app = routes::router(state);
 
     let port: u16 = std::env::var("PORT")
         .unwrap_or_else(|_| "8080".to_string())

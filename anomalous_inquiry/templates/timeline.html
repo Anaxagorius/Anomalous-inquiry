@@ -24,9 +24,6 @@
             </div>
             <h2 class="font-semibold text-teal-100 mb-1">{{ event.title }}</h2>
             <p class="text-sm text-teal-100/70">{{ event.description }}</p>
-            {% if let Some(slug) = event.article_slug %}
-            <a href="/articles/{{ slug }}" class="text-xs text-cyan-300 hover:underline mt-2 inline-block">Read article →</a>
-            {% endif %}
           </div>
         </div>
         {% endfor %}

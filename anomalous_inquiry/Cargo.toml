@@ -19,5 +19,3 @@ askama = "0.12"
 rand = "0.8"
 anyhow = "1"
 chrono = { version = "0.4", features = ["serde"] }
-pulldown-cmark = "0.10"
-rss = "2.0"

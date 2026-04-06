@@ -30,6 +30,16 @@ pub struct Suggestion {
 }
 
 #[derive(Serialize, Deserialize, Clone)]
+pub struct Organization {
+    pub name: String,
+    pub category: String,
+    pub description: String,
+    pub website: Option<String>,
+    pub founded: Option<String>,
+    pub notes: Option<String>,
+}
+
+#[derive(Serialize, Deserialize, Clone)]
 pub struct TimelineEvent {
     pub date: String,
     pub title: String,

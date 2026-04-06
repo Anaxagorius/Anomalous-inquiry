@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Society for Psychical Research (SPR)",
+    "category": "Major Research Organizations",
+    "description": "The oldest and most prominent psychical research society in the world, dedicated to the scientific investigation of psychic phenomena.",
+    "website": "https://www.spr.ac.uk",
+    "founded": "1882",
+    "notes": null
+  },
+  {
+    "name": "American Society for Psychical Research (ASPR)",
+    "category": "Major Research Organizations",
+    "description": "The oldest psychical research organization in the United States, conducting scientific research into psychic phenomena including ESP, telepathy, and survival after death.",
+    "website": "https://www.aspr.com",
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "Parapsychological Association (PA)",
+    "category": "Major Research Organizations",
+    "description": "The international professional organization of scientists and scholars engaged in the study of psi phenomena. Affiliated with the American Association for the Advancement of Science (AAAS).",
+    "website": "https://www.parapsych.org",
+    "founded": null,
+    "notes": "Affiliated with AAAS"
+  },
+  {
+    "name": "Rhine Research Center",
+    "category": "Major Research Organizations",
+    "description": "An independent research institution continuing the work begun at the Duke University Parapsychology Laboratory, focusing on the science of consciousness and anomalous phenomena.",
+    "website": "https://www.rhine.org",
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "Institute of Noetic Sciences (IONS)",
+    "category": "Major Research Organizations",
+    "description": "A nonprofit organization that conducts and sponsors research on the nature and potential of consciousness, exploring the interconnection between science and human experience.",
+    "website": "https://noetic.org",
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "Koestler Parapsychology Unit",
+    "category": "Major Research Organizations",
+    "description": "A research unit at the University of Edinburgh that conducts scientific investigations into parapsychological phenomena, one of the few academic parapsychology units still active.",
+    "website": "https://www.ed.ac.uk/psychology/kpu",
+    "founded": null,
+    "notes": "University of Edinburgh"
+  },
+  {
+    "name": "Division of Perceptual Studies (DOPS)",
+    "category": "Major Research Organizations",
+    "description": "A research unit within the Department of Psychiatry at the University of Virginia that investigates phenomena such as near-death experiences, past-life memories, and apparitions.",
+    "website": "https://med.virginia.edu/perceptual-studies",
+    "founded": null,
+    "notes": "University of Virginia (UVA)"
+  },
+  {
+    "name": "Duke University Parapsychology Laboratory",
+    "category": "Academic & Research Units (Historical or Defunct)",
+    "description": "Founded by J.B. Rhine and William McDougall, this laboratory pioneered laboratory-based parapsychology research including the famous card-guessing experiments and coinage of the term 'extrasensory perception.'",
+    "website": null,
+    "founded": null,
+    "notes": "Predecessor to the Rhine Research Center; formally closed as part of Duke University in 1965"
+  },
+  {
+    "name": "Princeton Engineering Anomalies Research (PEAR) Lab",
+    "category": "Academic & Research Units (Historical or Defunct)",
+    "description": "A research program at Princeton University that studied the potential influence of human consciousness on physical systems such as random event generators. Operated for nearly three decades before closing.",
+    "website": null,
+    "founded": null,
+    "notes": "Closed 2007"
+  },
+  {
+    "name": "Maimonides Medical Center Dream Lab",
+    "category": "Academic & Research Units (Historical or Defunct)",
+    "description": "A sleep and dream research laboratory that conducted pioneering controlled studies on dream telepathy, making it one of the first settings to apply rigorous experimental methods to anomalous dream phenomena.",
+    "website": null,
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "Freiburg Institute for Frontier Areas of Psychology",
+    "category": "Academic & Research Units (Historical or Defunct)",
+    "description": "A German research institute that investigated anomalous psychological phenomena including parapsychology, altered states of consciousness, and related frontier areas of science.",
+    "website": null,
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "Journal of Parapsychology",
+    "category": "Journals & Publications",
+    "description": "One of the primary peer-reviewed publications in the field, founded in 1937 at Duke University. Covers experimental and theoretical research in parapsychology.",
+    "website": null,
+    "founded": "1937",
+    "notes": null
+  },
+  {
+    "name": "Journal of the Society for Psychical Research",
+    "category": "Journals & Publications",
+    "description": "The official publication of the Society for Psychical Research, featuring research articles, case reports, and reviews on psychical phenomena since 1884.",
+    "website": "https://www.spr.ac.uk/publications/journal-spr",
+    "founded": "1884",
+    "notes": null
+  },
+  {
+    "name": "Journal of Scientific Exploration",
+    "category": "Journals & Publications",
+    "description": "A peer-reviewed journal covering topics at the boundaries of mainstream science, including anomalous cognition, UAP research, and related frontier subjects.",
+    "website": "https://journalofscientificexploration.org",
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "European Journal of Parapsychology",
+    "category": "Journals & Publications",
+    "description": "A peer-reviewed journal that published parapsychological research primarily from European researchers, covering experimental, theoretical, and historical perspectives.",
+    "website": null,
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "Journal of Consciousness Studies",
+    "category": "Journals & Publications",
+    "description": "An interdisciplinary journal dedicated to the study of consciousness, with overlapping interest in mind-body questions, anomalous experience, and the hard problem of consciousness.",
+    "website": "https://www.imprint.co.uk/jcs",
+    "founded": null,
+    "notes": "Overlapping interest with parapsychology"
+  },
+  {
+    "name": "U.S. Stargate Project",
+    "category": "Government / Intelligence-Adjacent (Historical)",
+    "description": "A classified U.S. government program that researched remote viewing and related psychic phenomena for potential intelligence applications. Funded by the Defense Intelligence Agency and CIA, running from the early 1970s until 1995.",
+    "website": null,
+    "founded": null,
+    "notes": "Remote viewing studies; declassified 1995"
+  },
+  {
+    "name": "SRI International (Psi-Related Contracts)",
+    "category": "Government / Intelligence-Adjacent (Historical)",
+    "description": "Stanford Research Institute (now SRI International) conducted government-funded research into remote viewing and related psychic phenomena as part of the Stargate program, with researchers including Hal Puthoff and Russell Targ.",
+    "website": null,
+    "founded": null,
+    "notes": "Psi-related contracts under Stargate program"
+  },
+  {
+    "name": "Princeton Engineering Anomalies Research (PEAR) – Civilian Research",
+    "category": "Government / Intelligence-Adjacent (Historical)",
+    "description": "While primarily a civilian academic program, PEAR's research into human-machine interaction anomalies was conducted in parallel with government-funded remote viewing programs and contributed to the broader research context of the Stargate era.",
+    "website": null,
+    "founded": null,
+    "notes": "Civilian research; contextually linked to the Stargate era"
+  }
+]

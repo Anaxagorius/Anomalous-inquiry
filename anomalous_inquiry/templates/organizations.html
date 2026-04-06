@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Organizations &amp; Institutions</h1>
+<p class="orgs-desc">A directory of major research organizations, academic units, journals, and government-adjacent programs involved in the study of anomalous and parapsychological phenomena.</p>
+
+{% set major = organizations | filter(attribute="category", value="Major Research Organizations") %}
+{% set historical = organizations | filter(attribute="category", value="Academic & Research Units (Historical or Defunct)") %}
+{% set journals = organizations | filter(attribute="category", value="Journals & Publications") %}
+{% set gov = organizations | filter(attribute="category", value="Government / Intelligence-Adjacent (Historical)") %}
+
+{% if major %}
+<section class="org-category">
+  <h2>Major Research Organizations</h2>
+  <ul class="org-list">
+    {% for org in major %}
+    <li class="org-item">
+      <div class="org-header">
+        {% if org.website %}<a class="org-name" href="{{ org.website }}" target="_blank" rel="noopener">{{ org.name }}</a>{% else %}<span class="org-name">{{ org.name }}</span>{% endif %}
+        {% if org.founded %}<span class="org-meta">Est. {{ org.founded }}</span>{% endif %}
+      </div>
+      <p class="org-desc">{{ org.description }}</p>
+      {% if org.notes %}<p class="org-notes">{{ org.notes }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if historical %}
+<section class="org-category">
+  <h2>Academic &amp; Research Units (Historical or Defunct)</h2>
+  <ul class="org-list">
+    {% for org in historical %}
+    <li class="org-item">
+      <div class="org-header">
+        {% if org.website %}<a class="org-name" href="{{ org.website }}" target="_blank" rel="noopener">{{ org.name }}</a>{% else %}<span class="org-name">{{ org.name }}</span>{% endif %}
+        {% if org.founded %}<span class="org-meta">Est. {{ org.founded }}</span>{% endif %}
+      </div>
+      <p class="org-desc">{{ org.description }}</p>
+      {% if org.notes %}<p class="org-notes">{{ org.notes }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if journals %}
+<section class="org-category">
+  <h2>Journals &amp; Publications</h2>
+  <ul class="org-list">
+    {% for org in journals %}
+    <li class="org-item">
+      <div class="org-header">
+        {% if org.website %}<a class="org-name" href="{{ org.website }}" target="_blank" rel="noopener">{{ org.name }}</a>{% else %}<span class="org-name">{{ org.name }}</span>{% endif %}
+        {% if org.founded %}<span class="org-meta">Est. {{ org.founded }}</span>{% endif %}
+      </div>
+      <p class="org-desc">{{ org.description }}</p>
+      {% if org.notes %}<p class="org-notes">{{ org.notes }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if gov %}
+<section class="org-category">
+  <h2>Government / Intelligence-Adjacent (Historical)</h2>
+  <ul class="org-list">
+    {% for org in gov %}
+    <li class="org-item">
+      <div class="org-header">
+        {% if org.website %}<a class="org-name" href="{{ org.website }}" target="_blank" rel="noopener">{{ org.name }}</a>{% else %}<span class="org-name">{{ org.name }}</span>{% endif %}
+        {% if org.founded %}<span class="org-meta">Est. {{ org.founded }}</span>{% endif %}
+      </div>
+      <p class="org-desc">{{ org.description }}</p>
+      {% if org.notes %}<p class="org-notes">{{ org.notes }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% endblock %}

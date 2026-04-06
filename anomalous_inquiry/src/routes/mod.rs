@@ -2,6 +2,7 @@
 pub mod articles;
 pub mod admin;
 pub mod comments;
+pub mod organizations;
 pub mod rss;
 pub mod tags;
 pub mod timeline;
@@ -23,6 +24,7 @@ pub fn router(state: AppState) -> Router {
         .route("/tags", get(tags::index))
         .route("/tags/:tag", get(tags::by_tag))
         .route("/timeline", get(timeline::page))
+        .route("/organizations", get(organizations::page))
         .route("/rss.xml", get(rss::feed))
         // comments
         .route("/articles/:slug/comments", post(comments::submit))

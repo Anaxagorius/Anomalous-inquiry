@@ -3,12 +3,14 @@ services:
     name: anomalous-inquiry
     runtime: rust
     buildCommand: cd anomalous_inquiry && cargo build --release
-    startCommand: ./anomalous_inquiry/target/release/anomalous_inquiry
+    startCommand: cd anomalous_inquiry && ./target/release/anomalous_inquiry
     envVars:
       - key: ADMIN_PASSWORD
         generateValue: true
       - key: RUST_LOG
         value: info
+      - key: DATA_DIR
+        value: /data
     disk:
       name: data
       mountPath: /data

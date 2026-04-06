@@ -2,7 +2,7 @@
 use std::{
     collections::HashMap,
     fs,
-    path::Path,
+    path::{Path, PathBuf},
     sync::{Arc, Mutex},
 };
 
@@ -126,8 +126,14 @@ fn load_articles() -> Vec<Article> {
     articles
 }
 
+fn data_dir() -> PathBuf {
+    std::env::var("DATA_DIR")
+        .map(PathBuf::from)
+        .unwrap_or_else(|_| PathBuf::from("data"))
+}
+
 fn load_comments() -> Vec<Comment> {
-    let path = Path::new("data/comments.json");
+    let path = data_dir().join("comments.json");
     if !path.exists() {
         return Vec::new();
     }
@@ -160,7 +166,7 @@ fn load_organizations() -> Vec<Organization> {
 }
 
 pub fn save_comments(comments: &[Comment]) {
-    let path = Path::new("data/comments.json");
+    let path = data_dir().join("comments.json");
     if let Some(parent) = path.parent() {
         let _ = fs::create_dir_all(parent);
     }

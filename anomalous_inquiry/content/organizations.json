@@ -142,5 +142,101 @@
     "website": null,
     "founded": null,
     "notes": "Psi-related contracts under Stargate program"
+  },
+  {
+    "name": "National Aviation Reporting Center on Anomalous Phenomena (NARCAP)",
+    "category": "UAP Scientific & Analytical Organizations",
+    "description": "A scientific research organization focused specifically on aviation-related UAP encounters. NARCAP maintains the most comprehensive database of pilot-reported UAP, advocates for reduced reporting stigma in the aviation community, and publishes technical analyses of specific pilot encounters and survey data on underreporting rates.",
+    "website": "https://www.narcap.org",
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "Scientific Coalition for UAP Studies (SCU)",
+    "category": "UAP Scientific & Analytical Organizations",
+    "description": "A multidisciplinary research organization founded in 2017 that has published peer-reviewed technical analyses of specific UAP cases including the USS Nimitz encounters and the Aguadilla, Puerto Rico infrared footage. SCU methodology emphasises detailed physical and sensor analysis.",
+    "website": "https://www.explorescu.org",
+    "founded": "2017",
+    "notes": null
+  },
+  {
+    "name": "The Galileo Project",
+    "category": "UAP Scientific & Analytical Organizations",
+    "description": "A scientific initiative founded by Harvard astronomer Avi Loeb in 2021 to collect systematic, calibrated observational data on UAP using purpose-built sensor arrays incorporating optical, infrared, radio, and seismic instruments. Represents the most rigorous current effort to move UAP research onto a standard scientific data-collection footing.",
+    "website": "https://projects.iq.harvard.edu/galileo",
+    "founded": "2021",
+    "notes": "Harvard University; Avi Loeb, principal investigator"
+  },
+  {
+    "name": "Mutual UFO Network (MUFON)",
+    "category": "UAP Scientific & Analytical Organizations",
+    "description": "The largest civilian UAP investigative organization by membership, MUFON maintains a global network of trained field investigators and a database of tens of thousands of case reports. Publishes the MUFON UFO Journal.",
+    "website": "https://www.mufon.com",
+    "founded": "1969",
+    "notes": null
+  },
+  {
+    "name": "All-domain Anomaly Resolution Office (AARO)",
+    "category": "UAP Government Programs (Contemporary)",
+    "description": "The primary U.S. government body for UAP investigation, established within the Office of the Secretary of Defense in July 2022. AARO's mandate covers aerial, sub-surface, and near-space anomalous phenomena. Required by statute to report annually to Congress and to maintain secure reporting mechanisms for government personnel.",
+    "website": "https://www.aaro.mil",
+    "founded": "2022",
+    "notes": "Superseded the UAP Task Force (UAPTF)"
+  },
+  {
+    "name": "UAP Task Force (UAPTF)",
+    "category": "UAP Government Programs (Contemporary)",
+    "description": "Established within the Office of Naval Intelligence in August 2020, the UAPTF produced the Preliminary Assessment: Unidentified Aerial Phenomena (June 2021) — the first official public UAP analysis report since Project Blue Book. Assessed 144 cases from government sources, concluding 143 were unexplained.",
+    "website": null,
+    "founded": "2020",
+    "notes": "Superseded by AARO in July 2022"
+  },
+  {
+    "name": "Advanced Aerospace Threat Identification Program (AATIP)",
+    "category": "UAP Government Programs (Contemporary)",
+    "description": "A classified U.S. government program funded from 2007 to 2012 within the Senate's defense budget, administered by Luis Elizondo in the Office of the Under Secretary of Defense for Intelligence. AATIP collected and analysed sensor data from military UAP encounters and contracted studies on advanced aerospace concepts. Its existence was disclosed by the New York Times in December 2017.",
+    "website": null,
+    "founded": "2007",
+    "notes": "Declassified 2017; Luis Elizondo, director"
+  },
+  {
+    "name": "NICAP (National Investigations Committee on Aerial Phenomena)",
+    "category": "UAP Archival & Historical Organizations",
+    "description": "Founded by retired Navy physicist Thomas Townsend Brown, NICAP was the largest and most influential civilian UAP organization of the 1950s and 1960s under Donald Keyhoe's leadership. Maintained extensive case files and lobbied for congressional investigation of UAP secrecy.",
+    "website": null,
+    "founded": "1956",
+    "notes": "Operated 1956–1980; archives partially preserved by CUFOS"
+  },
+  {
+    "name": "CUFOS (Center for UFO Studies)",
+    "category": "UAP Archival & Historical Organizations",
+    "description": "Founded by J. Allen Hynek in 1973, CUFOS is a non-profit scientific research organization that publishes the International UFO Reporter and maintains one of the most extensive historical UAP case databases. Continues the analytical tradition Hynek established during his tenure as Project Blue Book's scientific consultant.",
+    "website": "https://www.cufos.org",
+    "founded": "1973",
+    "notes": "Founded by J. Allen Hynek"
+  },
+  {
+    "name": "The Black Vault",
+    "category": "UAP Archival & Historical Organizations",
+    "description": "An online archive of declassified U.S. government documents, founded by researcher John Greenewald Jr., containing the largest publicly accessible collection of FOIA-acquired UAP-related materials, including the complete digitised Project Blue Book archive and thousands of more recent government releases.",
+    "website": "https://www.theblackvault.com",
+    "founded": null,
+    "notes": "Founded by John Greenewald Jr."
+  },
+  {
+    "name": "GEIPAN (France)",
+    "category": "UAP Government Programs (International)",
+    "description": "The Groupe d'Études et d'Informations sur les Phénomènes Aérospatiaux Non-identifiés, operating under the French space agency CNES since 1977. One of the few national UAP investigation bodies that has operated continuously with public transparency. Publishes its case database online and employs a four-tier classification system; approximately 3% of cases are classified as unexplained after thorough investigation.",
+    "website": "https://www.cnes-geipan.fr",
+    "founded": "1977",
+    "notes": "Operates under CNES (French space agency)"
+  },
+  {
+    "name": "Chilean CEFAA",
+    "category": "UAP Government Programs (International)",
+    "description": "Chile's Committee for Studies of Anomalous Aerial Phenomena, operating under the Civil Aeronautics Directorate. Has produced several carefully documented analyses of pilot UAP encounters, including the 2014 Chilean Navy helicopter infrared case, and is considered one of the more methodologically rigorous national UAP investigation bodies.",
+    "website": null,
+    "founded": null,
+    "notes": "Operates under Chilean Civil Aeronautics Directorate"
   }
 ]

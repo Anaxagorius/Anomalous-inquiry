@@ -59,7 +59,7 @@ Keel's framework was partly motivated by the observation that UAP and entity rep
 
 ### Cryptoterrestrial Hypothesis
 
-A more recent formalisation by academic philosopher and UAP researcher Tyler Volk and, more prominently, by science journalist Michael Masters and philosopher-author Mac Tonnies, proposes that an intelligence indigenous to Earth — perhaps occupying deep geological, oceanic, or remote locations — has coexisted with humanity without detection. Mac Tonnies's posthumous *The Cryptoterrestrials* (2010) explored the possibility of a non-human species maintaining a covert terrestrial civilisation, possibly predating humanity or representing a surviving branch of an earlier hominid line.
+A more recent formalisation by science journalist Michael Masters and philosopher-author Mac Tonnies proposes that an intelligence indigenous to Earth — perhaps occupying deep geological, oceanic, or remote locations — has coexisted with humanity without detection. Mac Tonnies's posthumous *The Cryptoterrestrials* (2010) explored the possibility of a non-human species maintaining a covert terrestrial civilisation, possibly predating humanity or representing a surviving branch of an earlier hominid line.
 
 Harvard-trained scholar Garry Nolan has noted that the cryptoterrestrial hypothesis deserves serious analytical consideration alongside ETH, particularly given the absence of confirmed interstellar propulsion signatures.
 
@@ -214,7 +214,7 @@ Researchers and investigators distinguish several orb categories:
 ### Key Documented Orb Cases
 
 - **Hessdalen, Norway (1981–present)**: Ongoing scientific monitoring of luminous formations (see Section 5). EMBLA Project researchers documented orbs maintaining formation, splitting, and responding to laser illumination.
-- **Yakima, Washington (1970s–present)**: Researcher David Akers documented extensive luminous orb activity on the Yakima Indian Reservation in correlation with geological fault structures, providing some of the best photographic and witness documentation of repeating orb phenomena.
+- **Yakima, Washington (1970s–present)**: Researchers including Bill Vogel, an Air Traffic Controller on the Yakima Indian Reservation, documented extensive luminous orb activity in correlation with geological fault structures, providing some of the best photographic and witness documentation of repeating orb phenomena. Journalist Greg Long's *Examining the Earthlight Theory* (1990) synthesised the investigative record of the Yakima lights.
 - **Skinwalker Ranch, Utah (1990s–present)**: Under the ownership of the National Institute for Discovery Science (NIDS) and later the government-connected BAASS, and now the current commercial research operation, orbs and luminous formations have been reported and some captured on sensor equipment. The 2021 and subsequent History Channel series have documented some of these encounters in a commercially oriented format; independent scientific analysis is limited.
 - **Marfa Lights, Texas**: Persistent luminous formations near Marfa, Texas have been documented photographically and by formal scientific expeditions, including a 2004 study by Edson Hendricks and colleagues. Some formations have been attributed to highway traffic refraction; others remain unexplained.
 - **Brown Mountain Lights, North Carolina**: Persistent lights observed on Brown Mountain since at least the early 20th century have been studied by the USGS and multiple independent researchers. Some are attributed to locomotive headlights; residual formations are unexplained.

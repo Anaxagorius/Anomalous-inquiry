@@ -19,10 +19,14 @@ A neutral, documentary-style research platform for the systematic investigation 
 ### Anomalous Events & Cases
 - Nimitz UAP incident (2004)
 - Roswell (1947)
+- Phoenix Lights (1997)
+- Rendlesham Forest incident (1980)
+- Belgian Wave (1989–91)
 - Close encounter archive (CE1–CE5) & timeline
 
 ### Survival Research
 - Near-death experiences (NDE)
+- Mind-brain independence
 
 ### Altered States & Exceptional Experiences
 - Out-of-body experiences (OBE)
@@ -33,17 +37,28 @@ A neutral, documentary-style research platform for the systematic investigation 
 - Non-pathological dissociative experiences
 - Visionary experiences
 
+### Non-Human Intelligences (NHI)
+- Hub overview and typology framework
+- Extraterrestrial hypothesis (Greys, Nordics, Reptilians, Mantids, Avian)
+- Ultra-terrestrial hypothesis (Tonnies, Agartha, Dulce)
+- Interdimensional hypothesis (Vallée, Keel, Shadow Beings, Skinwalker Ranch)
+- Plasma entities (Hessdalen Project, Marfa Lights, ball lightning)
+- Orbs (foo fighters, crop circle orbs, Congressional testimony)
+- Artificial intelligences / probes (Bracewell/Von Neumann, biomechanical entities)
+- Hybrid beings (Hopkins, Jacobs, Mack, CERO research)
+- Ancient intelligences (Anunnaki, Watchers/Nephilim, Vimanas, Djinn)
+- Consciousness-based entities (Monroe Institute, DMT entities, Philip Experiment)
+- Trickster hypothesis (Vallée Control System, Keel/Mothman, MIBs)
+- Aquatic/USO phenomena (Soviet Navy files, Lake Baikal, USS Trepang)
+- Other/unclassified encounters
+- Documentation archive (AARO, AATIP, congressional hearings, FOIA releases)
+
 ## Features
-- Static articles authored in Markdown with YAML front matter
-- Reflections journal (admin-only, cookie-authenticated)
-- Moderated anonymous comments per article
-- Suggestions inbox
-- CE1–CE5 archive and interactive timeline
-- PDF export per article
-- RSS feed
-- Citation formatting (APA and Chicago)
-- Tag browsing
-- No frontend JavaScript
+- Comprehensive static topic pages covering all subjects with sourced, multi-section reference content
+- Reflections journal (admin-only, cookie-authenticated) with guest-visible reflections
+- CE1–CE5 archive and interactive timeline (108+ chronological entries from antiquity to 2023)
+- Organizations directory (36+ research institutions, government programmes, and journals)
+- No frontend JavaScript (Tailwind CDN via `<script>` tag for styling only)
 
 ## Tech Stack
 
@@ -51,12 +66,11 @@ A neutral, documentary-style research platform for the systematic investigation 
 |-------|-----------|
 | Language | Rust (2021 edition) |
 | HTTP framework | Axum 0.7 |
-| Templating | Tera |
-| Markdown rendering | pulldown-cmark |
-| PDF generation | printpdf |
+| Templating | Askama (compile-time) |
+| Authentication | Argon2 + JWT (`jsonwebtoken`) |
 | Async runtime | Tokio |
 | Date handling | Chrono |
-| RSS | rss crate |
+| Cookies | tower-cookies |
 
 ## Local Development
 
@@ -71,27 +85,17 @@ cargo run
 # The server starts at http://localhost:8080
 ```
 
-The server reads articles from `content/articles/` at startup. Add or edit `.md` files there and restart the server to pick up changes.
+All content (organizations, timeline) is loaded from JSON files in `content/` at startup. Topic pages are compiled into the binary via Askama templates.
 
 ### Admin Access
 
-The reflections journal and comment moderation panel are available at `/admin`. Authentication uses a cookie set by a `POST /admin/login` form. The default password is defined at server startup via the `ADMIN_PASSWORD` environment variable (see `src/state.rs`).
+The reflections journal is available at `/admin`. Authentication uses a JWT cookie set by a `POST /admin/login` form. The default password is `anomalous2024!` and the server prompts a forced password change on first login. Set a custom password via the `ADMIN_PASSWORD` environment variable or through the change-password UI.
 
-### Adding Articles
+### Content Data
 
-Create a new `.md` file in `content/articles/` with the following front matter:
-
-```markdown
----
-title: Your Article Title
-tags: tag-one, tag-two, tag-three
-published: YYYY-MM-DD
----
-
-Article body in standard Markdown...
-```
-
-The slug is derived automatically from the filename (without the `.md` extension).
+- **Timeline:** Edit `content/timeline.json` — array of `{ date, title, description, category, sources }` objects sorted chronologically.
+- **Organizations:** Edit `content/organizations.json` — array of `{ name, category, description, website?, founded?, notes? }` objects.
+- **Journal entries:** Persisted to `data/journal_entries.json` (path configurable via `JOURNAL_DATA_FILE` env var).
 
 ## Deployment on Render.com
 

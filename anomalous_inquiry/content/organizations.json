@@ -186,7 +186,7 @@
   {
     "name": "UAP Task Force (UAPTF)",
     "category": "UAP Government Programs (Contemporary)",
-    "description": "Established within the Office of Naval Intelligence in August 2020, the UAPTF produced the Preliminary Assessment: Unidentified Aerial Phenomena (June 2021) — the first official public UAP analysis report since Project Blue Book. Assessed 144 cases from government sources, concluding 143 were unexplained.",
+    "description": "Established within the Office of Naval Intelligence in August 2020, the UAPTF produced the Preliminary Assessment: Unidentified Aerial Phenomena (June 2021) \u2014 the first official public UAP analysis report since Project Blue Book. Assessed 144 cases from government sources, concluding 143 were unexplained.",
     "website": null,
     "founded": "2020",
     "notes": "Superseded by AARO in July 2022"
@@ -205,7 +205,7 @@
     "description": "Founded by retired Navy physicist Thomas Townsend Brown, NICAP was the largest and most influential civilian UAP organization of the 1950s and 1960s under Donald Keyhoe's leadership. Maintained extensive case files and lobbied for congressional investigation of UAP secrecy.",
     "website": null,
     "founded": "1956",
-    "notes": "Operated 1956–1980; archives partially preserved by CUFOS"
+    "notes": "Operated 1956\u20131980; archives partially preserved by CUFOS"
   },
   {
     "name": "CUFOS (Center for UFO Studies)",
@@ -226,7 +226,7 @@
   {
     "name": "GEIPAN (France)",
     "category": "UAP Government Programs (International)",
-    "description": "The Groupe d'Études et d'Informations sur les Phénomènes Aérospatiaux Non-identifiés, operating under the French space agency CNES since 1977. One of the few national UAP investigation bodies that has operated continuously with public transparency. Publishes its case database online and employs a four-tier classification system; approximately 3% of cases are classified as unexplained after thorough investigation.",
+    "description": "The Groupe d'\u00c9tudes et d'Informations sur les Ph\u00e9nom\u00e8nes A\u00e9rospatiaux Non-identifi\u00e9s, operating under the French space agency CNES since 1977. One of the few national UAP investigation bodies that has operated continuously with public transparency. Publishes its case database online and employs a four-tier classification system; approximately 3% of cases are classified as unexplained after thorough investigation.",
     "website": "https://www.cnes-geipan.fr",
     "founded": "1977",
     "notes": "Operates under CNES (French space agency)"
@@ -238,5 +238,53 @@
     "website": null,
     "founded": null,
     "notes": "Operates under Chilean Civil Aeronautics Directorate"
+  },
+  {
+    "name": "National UFO Reporting Center (NUFORC)",
+    "category": "UAP Archival & Historical Organizations",
+    "description": "Operates a 24-hour telephone hotline and online reporting system for UAP witnesses in the United States. Founded in 1974, the NUFORC database contains over 170,000 reports and is one of the largest and most frequently referenced civilian UAP report archives. Peter Davenport has directed the centre since 1994.",
+    "website": "https://nuforc.org",
+    "founded": "1974",
+    "notes": null
+  },
+  {
+    "name": "Monroe Institute",
+    "category": "Major Research Organizations",
+    "description": "Residential research and educational organisation founded by Robert Monroe (1915\u20131995) in Faber, Virginia, in 1974 to investigate altered states of consciousness, particularly out-of-body experiences facilitated by binaural beat audio technology (Hemi-Sync). The institute trains facilitators, hosts programmes, and conducts research into consciousness and anomalous experience. A 1983 U.S. Army INSCOM report (the Gateway Process, declassified 2003) assessed the Monroe Institute's methods for potential intelligence applications.",
+    "website": "https://www.monroeinstitute.org",
+    "founded": "1974",
+    "notes": null
+  },
+  {
+    "name": "National Institute for Discovery Science (NIDS)",
+    "category": "Academic & Research Units (Historical or Defunct)",
+    "description": "Private scientific research organisation founded by Robert Bigelow in 1995 to study UAP, cattle mutilations, and related anomalous phenomena with a multi-disciplinary team of credentialed scientists. NIDS funded the purchase of Skinwalker Ranch in Utah in 1996 and conducted years of on-site scientific monitoring. The institute was dissolved in 2004; its investigations informed subsequent government-contracted UAP research.",
+    "website": null,
+    "founded": "1995",
+    "notes": "Dissolved 2004; succeeded functionally by Bigelow Aerospace Advanced Space Studies (BAASS)."
+  },
+  {
+    "name": "Bigelow Aerospace Advanced Space Studies (BAASS)",
+    "category": "Government / Intelligence-Adjacent (Historical)",
+    "description": "Private aerospace and anomalous phenomena research company founded by Robert Bigelow. BAASS held the primary contract for the U.S. Department of Defense's Advanced Aerospace Threat Identification Program (AATIP, 2007\u20132012), receiving approximately 2 million to investigate UAP and produce technical reports on propulsion, materials science, and biological effects. BAASS employed investigators with security clearances and access to classified DoD data; its findings informed subsequent government UAP programmes.",
+    "website": null,
+    "founded": "2007",
+    "notes": null
+  },
+  {
+    "name": "Project Hessdalen",
+    "category": "UAP Scientific & Analytical Organizations",
+    "description": "International scientific field project established in 1983 to study persistent anomalous light phenomena observed in the Hessdalen Valley, Norway, since at least the 1930s. Operated by a consortium of Norwegian and Swedish universities, the project maintains permanent sensor arrays including magnetometers, spectrophotometers, radar, and all-sky cameras. Key researchers include Erling Strand (\u00d8stfold University College) and Massimo Teodorani (Italian National Research Council). The project represents one of the longest-running and most rigorously instrumented investigations of persistent UAP phenomena.",
+    "website": "https://hessdalen.org",
+    "founded": "1983",
+    "notes": null
+  },
+  {
+    "name": "CERO (Close Encounter Research Organization)",
+    "category": "UAP Scientific & Analytical Organizations",
+    "description": "California-based organisation founded by certified hypnotherapist Yvonne Smith to support and research individuals who report close encounter experiences, particularly alleged abduction and hybrid-related accounts. CERO conducts hypnotic regression sessions in conjunction with licensed mental health professionals and maintains a case database. The organisation focuses on the support needs of experiencers alongside documentation and research.",
+    "website": null,
+    "founded": "1990",
+    "notes": null
   }
 ]

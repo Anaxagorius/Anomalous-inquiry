@@ -69,7 +69,7 @@
     "description": "A research program at Princeton University that studied the potential influence of human consciousness on physical systems such as random event generators. Operated for nearly three decades before closing.",
     "website": null,
     "founded": null,
-    "notes": "Closed 2007"
+    "notes": "Closed 2007; civilian academic research contextually linked to the government-funded Stargate era"
   },
   {
     "name": "Maimonides Medical Center Dream Lab",
@@ -142,13 +142,5 @@
     "website": null,
     "founded": null,
     "notes": "Psi-related contracts under Stargate program"
-  },
-  {
-    "name": "Princeton Engineering Anomalies Research (PEAR) – Civilian Research",
-    "category": "Government / Intelligence-Adjacent (Historical)",
-    "description": "While primarily a civilian academic program, PEAR's research into human-machine interaction anomalies was conducted in parallel with government-funded remote viewing programs and contributed to the broader research context of the Stargate era.",
-    "website": null,
-    "founded": null,
-    "notes": "Civilian research; contextually linked to the Stargate era"
   }
 ]

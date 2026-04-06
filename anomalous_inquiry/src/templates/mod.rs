@@ -55,3 +55,19 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "trance.html")] pub struct TranceTemplate;
 #[derive(Template)] #[template(path = "dissociation.html")] pub struct DissociationTemplate;
 #[derive(Template)] #[template(path = "visionary.html")] pub struct VisionaryTemplate;
+
+// NHI hub + category pages
+#[derive(Template)] #[template(path = "nhi.html")] pub struct NhiTemplate;
+#[derive(Template)] #[template(path = "nhi_et.html")] pub struct NhiEtTemplate;
+#[derive(Template)] #[template(path = "nhi_ultra_terrestrial.html")] pub struct NhiUltraTerrestrialTemplate;
+#[derive(Template)] #[template(path = "nhi_interdimensional.html")] pub struct NhiInterdimensionalTemplate;
+#[derive(Template)] #[template(path = "nhi_plasma.html")] pub struct NhiPlasmaTemplate;
+#[derive(Template)] #[template(path = "nhi_orbs.html")] pub struct NhiOrbsTemplate;
+#[derive(Template)] #[template(path = "nhi_artificial.html")] pub struct NhiArtificialTemplate;
+#[derive(Template)] #[template(path = "nhi_hybrid.html")] pub struct NhiHybridTemplate;
+#[derive(Template)] #[template(path = "nhi_ancient.html")] pub struct NhiAncientTemplate;
+#[derive(Template)] #[template(path = "nhi_consciousness.html")] pub struct NhiConsciousnessTemplate;
+#[derive(Template)] #[template(path = "nhi_trickster.html")] pub struct NhiTricksterTemplate;
+#[derive(Template)] #[template(path = "nhi_aquatic.html")] pub struct NhiAquaticTemplate;
+#[derive(Template)] #[template(path = "nhi_other.html")] pub struct NhiOtherTemplate;
+#[derive(Template)] #[template(path = "nhi_documentation.html")] pub struct NhiDocumentationTemplate;

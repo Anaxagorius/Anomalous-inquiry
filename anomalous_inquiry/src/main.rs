@@ -9,6 +9,7 @@ mod parapsychology;
 mod uap;
 mod survival;
 mod altered_states;
+mod nhi;
 
 use axum::{Router, routing::get, extract::State, response::IntoResponse, http::{StatusCode, header}};
 use tower_cookies::{CookieManagerLayer, Cookies};
@@ -38,6 +39,7 @@ async fn main() -> anyhow::Result<()> {
         .nest("/uap", uap::routes())
         .nest("/survival", survival::routes())
         .nest("/altered-states", altered_states::routes())
+        .nest("/nhi", nhi::routes())
         .layer(CookieManagerLayer::new())
         .with_state(state);
 

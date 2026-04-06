@@ -1,5 +1,121 @@
 [
   {
+    "date": "1882-02-20",
+    "title": "Society for Psychical Research Founded",
+    "description": "A group of Cambridge scholars, philosophers, and scientists establish the Society for Psychical Research (SPR) in London — the first organisation to apply systematic empirical methods to the investigation of telepathy, clairvoyance, mediumship, and apparitions. Founding members include Henry Sidgwick, Frederic Myers, and Edmund Gurney.",
+    "category": "Parapsychology",
+    "sources": [
+      "Proceedings of the Society for Psychical Research, Vol. 1 (1882)",
+      "Alan Gauld, The Founders of Psychical Research (1968)"
+    ]
+  },
+  {
+    "date": "1930-01-01",
+    "title": "J.B. Rhine Establishes ESP Laboratory at Duke University",
+    "description": "Joseph Banks Rhine, working under psychologist William McDougall at Duke University, begins systematic forced-choice experiments using Zener cards to test for extrasensory perception. Rhine's programme establishes the first academic parapsychology laboratory and introduces the term 'ESP' into scientific discourse.",
+    "category": "Parapsychology",
+    "sources": [
+      "J.B. Rhine, Extra-Sensory Perception (1934)",
+      "Rhine Research Center archives"
+    ]
+  },
+  {
+    "date": "1972-06-01",
+    "title": "SRI Remote Viewing Programme Begins",
+    "description": "Physicists Russell Targ and Harold Puthoff at Stanford Research Institute (SRI) begin government-contracted laboratory investigations of remote viewing and other anomalous cognition phenomena. Initial work involves subjects Ingo Swann and Pat Price. CIA funding is provided under contract with SRI.",
+    "category": "Parapsychology",
+    "sources": [
+      "Russell Targ and Harold Puthoff, 'Information Transmission Under Conditions of Sensory Shielding,' Nature (1974)",
+      "CIA FOIA release, Stargate programme documents"
+    ]
+  },
+  {
+    "date": "1974-08-01",
+    "title": "Targ and Puthoff Remote Viewing Results Published in Nature",
+    "description": "A paper by Russell Targ and Harold Puthoff reporting statistically significant results in remote viewing experiments with Ingo Swann and Pat Price is published in Nature, Vol. 251. The paper prompts sustained scientific debate. Results from 51 outdoor target trials showed above-chance correspondence by independent blind judges.",
+    "category": "Parapsychology",
+    "sources": [
+      "Targ, R. and Puthoff, H.E., Nature 251, 602–607 (1974)"
+    ]
+  },
+  {
+    "date": "1975-01-01",
+    "title": "Moody Publishes Life After Life",
+    "description": "Physician Raymond Moody publishes Life After Life, compiling accounts from over 150 individuals resuscitated from clinical death or near-death. The book introduces the term 'near-death experience' into scientific and popular discourse and identifies a recurrent phenomenological pattern including out-of-body perception, tunnel experience, and life review.",
+    "category": "Parapsychology",
+    "sources": [
+      "Raymond Moody, Life After Life (1975)",
+      "International Association for Near-Death Studies"
+    ]
+  },
+  {
+    "date": "1975-01-15",
+    "title": "Stevenson Publishes Cases of the Reincarnation Type, Volume I",
+    "description": "Psychiatrist Ian Stevenson of the University of Virginia publishes the first volume of Cases of the Reincarnation Type, presenting systematic field investigations of children reporting memories of previous lives. The four-volume series ultimately documents over 2,500 cases with detailed correspondence analysis.",
+    "category": "Parapsychology",
+    "sources": [
+      "Ian Stevenson, Cases of the Reincarnation Type Vol. I: India (1975)",
+      "University of Virginia Division of Perceptual Studies"
+    ]
+  },
+  {
+    "date": "1979-01-01",
+    "title": "Princeton PEAR Laboratory Founded",
+    "description": "Robert G. Jahn, Dean of Engineering at Princeton University, establishes the Princeton Engineering Anomalies Research (PEAR) laboratory to conduct systematic studies of possible mind-matter interaction using electronic random event generators. The laboratory operates until 2007 and accumulates approximately 2.5 million experimental trials.",
+    "category": "Parapsychology",
+    "sources": [
+      "Robert G. Jahn and Brenda J. Dunne, Margins of Reality (1987)",
+      "PEAR Technical Note Series, Princeton University"
+    ]
+  },
+  {
+    "date": "1994-01-01",
+    "title": "Bem and Honorton Autoganzfeld Meta-Analysis Published",
+    "description": "Psychologist Daryl Bem and parapsychologist Charles Honorton publish a meta-analysis of 11 autoganzfeld ESP studies in Psychological Bulletin, reporting a cumulative hit rate significantly above the 25% chance baseline (z = 6.60, p < 10⁻¹¹). The publication in a mainstream psychology journal marks a significant moment of crossover into academic visibility.",
+    "category": "Parapsychology",
+    "sources": [
+      "Bem, D.J. and Honorton, C., Psychological Bulletin 115(1), 4–18 (1994)"
+    ]
+  },
+  {
+    "date": "1995-11-28",
+    "title": "US Government Stargate Programme Declassified",
+    "description": "Following a CIA-commissioned review by the American Institutes for Research, the existence of the US government's remote viewing research programme — known under successive code names including GRILL FLAME, CENTER LANE, and STARGATE — is publicly acknowledged. The programme had operated since 1972 at SRI and SAIC, with funding across multiple agencies.",
+    "category": "Parapsychology",
+    "sources": [
+      "AIR Report: An Evaluation of Remote Viewing, September 1995",
+      "Utts, J., Journal of Scientific Exploration 10(1), 3–30 (1996)",
+      "Hyman, R., Journal of Scientific Exploration 10(1), 31–58 (1996)"
+    ]
+  },
+  {
+    "date": "2001-12-01",
+    "title": "Van Lommel NDE Prospective Study Published in The Lancet",
+    "description": "Cardiologist Pim van Lommel and colleagues publish a prospective study of 344 cardiac arrest survivors in The Lancet, finding that 18% reported an NDE. The study finds no correlation between NDE occurrence and duration of unconsciousness, medication, or prior awareness of NDEs, and documents cases with apparently accurate out-of-body perceptions during verified cardiac standstill.",
+    "category": "Parapsychology",
+    "sources": [
+      "van Lommel, P. et al., The Lancet 358(9298), 2039–2045 (2001)"
+    ]
+  },
+  {
+    "date": "2009-01-01",
+    "title": "Terminal Lucidity Formally Described in Medical Literature",
+    "description": "Michael Nahm and Bruce Greyson publish the first systematic scholarly review of terminal lucidity — unexpected return of clear consciousness in individuals with severe neurological conditions shortly before death — in the Journal of Nervous and Mental Disease, establishing the term and reviewing historical and contemporary cases.",
+    "category": "Parapsychology",
+    "sources": [
+      "Nahm, M. and Greyson, B., Journal of Nervous and Mental Disease 197(12), 942–944 (2009)"
+    ]
+  },
+  {
+    "date": "2011-01-01",
+    "title": "Bem Publishes 'Feeling the Future' in JPSP",
+    "description": "Social psychologist Daryl Bem publishes nine experiments reporting apparent retroactive influence on cognition in the Journal of Personality and Social Psychology. The publication prompts extensive scientific debate about replication standards, publication bias, and the evidential threshold for anomalous phenomena in psychology.",
+    "category": "Parapsychology",
+    "sources": [
+      "Bem, D.J., Journal of Personality and Social Psychology 100(3), 407–425 (2011)"
+    ]
+  },
+  {
     "date": "1947-07-08",
     "title": "Roswell Army Air Field Press Release",
     "description": "Colonel William Blanchard's public information officer issues a press release announcing the recovery of a 'flying disc' from a ranch near Roswell, New Mexico. The statement is retracted within hours by General Ramey at Fort Worth.",

@@ -1,16 +1,26 @@
-{% extends "base.html" %}
-{% block content %}
-<h1>Tag Index</h1>
-{% if tags %}
-<ul class="tag-index">
-  {% for tag in tags %}
-  <li>
-    <a class="tag" href="/tags/{{ tag.0 }}">{{ tag.0 }}</a>
-    <span class="tag-count">({{ tag.1 }})</span>
-  </li>
-  {% endfor %}
-</ul>
-{% else %}
-<p>No tags yet.</p>
-{% endif %}
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Tags — Anomalous Inquiry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>body { background: radial-gradient(circle at top, #0c2430 0, #020617 50%, #000000 100%); }</style>
+  </head>
+  <body class="min-h-screen text-white px-4 py-8">
+    <div class="max-w-4xl mx-auto space-y-6">
+      <header class="flex items-center justify-between">
+        <h1 class="text-3xl font-bold">🏷️ Browse by Tag</h1>
+        <a href="/home" class="text-teal-300 hover:underline text-sm">← Home</a>
+      </header>
+      <div class="flex flex-wrap gap-3">
+        {% for tag in tags %}
+        <a href="/tags/{{ tag.0 }}" class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-teal-500/30 hover:border-teal-400/70 transition backdrop-blur-md">
+          <span class="text-sm text-teal-100">{{ tag.0 }}</span>
+          <span class="text-xs text-cyan-300 font-mono">{{ tag.1 }}</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>

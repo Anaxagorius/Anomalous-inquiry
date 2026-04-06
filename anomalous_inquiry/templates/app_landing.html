@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Anomalous Inquiry — Archive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { background: radial-gradient(circle at top, #0c2430 0, #020617 50%, #000000 100%); }
+      .starfield { background-image: radial-gradient(circle, rgba(255,255,255,0.4) 1px, transparent 1px); background-size: 3px 3px; opacity: 0.3; }
+    </style>
+  </head>
+  <body class="min-h-screen text-white px-4 py-8">
+    <div class="fixed inset-0 starfield pointer-events-none"></div>
+    <div class="relative max-w-6xl mx-auto space-y-8">
+      <header class="flex items-center justify-between">
+        <h1 class="text-3xl font-bold">🔭 Anomalous Inquiry</h1>
+        <nav class="flex gap-4 text-sm">
+          {% if is_admin %}<a href="/journal" class="text-teal-300 hover:underline">Reflections</a><a href="/admin" class="text-teal-300 hover:underline">Admin</a><a href="/admin/logout" class="text-teal-300 hover:underline">Logout</a>
+          {% else %}<a href="/auth/login" class="text-teal-300 hover:underline">Sign In</a>{% endif %}
+        </nav>
+      </header>
+      <div class="grid md:grid-cols-3 gap-4">
+        <a href="/articles" class="bg-white/5 border border-teal-500/40 rounded-2xl p-5 backdrop-blur-md hover:border-teal-400/80 transition"><h2 class="text-lg font-semibold mb-1">📄 Articles</h2><p class="text-sm text-teal-100/80">Full research archive — 70+ documented investigations.</p></a>
+        <a href="/parapsychology" class="bg-white/5 border border-cyan-500/40 rounded-2xl p-5 backdrop-blur-md hover:border-cyan-400/80 transition"><h2 class="text-lg font-semibold mb-1">🧠 Parapsychology</h2><p class="text-sm text-teal-100/80">ESP, ganzfeld, remote viewing, PEAR lab, mediumship.</p></a>
+        <a href="/uap" class="bg-white/5 border border-blue-500/40 rounded-2xl p-5 backdrop-blur-md hover:border-blue-400/80 transition"><h2 class="text-lg font-semibold mb-1">🛸 UAP</h2><p class="text-sm text-teal-100/80">Unidentified aerial phenomena cases and frameworks.</p></a>
+        <a href="/survival" class="bg-white/5 border border-violet-500/40 rounded-2xl p-5 backdrop-blur-md hover:border-violet-400/80 transition"><h2 class="text-lg font-semibold mb-1">✨ Survival Research</h2><p class="text-sm text-teal-100/80">Near-death experiences and consciousness studies.</p></a>
+        <a href="/altered-states" class="bg-white/5 border border-indigo-500/40 rounded-2xl p-5 backdrop-blur-md hover:border-indigo-400/80 transition"><h2 class="text-lg font-semibold mb-1">🌀 Altered States</h2><p class="text-sm text-teal-100/80">OBE, dream telepathy, lucid dreaming, trance states.</p></a>
+        <a href="/timeline" class="bg-white/5 border border-teal-500/40 rounded-2xl p-5 backdrop-blur-md hover:border-teal-400/80 transition"><h2 class="text-lg font-semibold mb-1">📅 Timeline</h2><p class="text-sm text-teal-100/80">Chronological history of anomalous events.</p></a>
+        <a href="/organizations" class="bg-white/5 border border-cyan-500/40 rounded-2xl p-5 backdrop-blur-md hover:border-cyan-400/80 transition"><h2 class="text-lg font-semibold mb-1">��️ Organizations</h2><p class="text-sm text-teal-100/80">Research institutions and key bodies in the field.</p></a>
+        <a href="/tags" class="bg-white/5 border border-blue-500/40 rounded-2xl p-5 backdrop-blur-md hover:border-blue-400/80 transition"><h2 class="text-lg font-semibold mb-1">🏷️ Tags</h2><p class="text-sm text-teal-100/80">Browse by topic or keyword.</p></a>
+        <a href="/journal/reflections" class="bg-white/5 border border-indigo-500/40 rounded-2xl p-5 backdrop-blur-md hover:border-indigo-400/80 transition"><h2 class="text-lg font-semibold mb-1">📝 Reflections</h2><p class="text-sm text-teal-100/80">Research notes and observations shared publicly.</p></a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Reflections — Anomalous Inquiry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>body { background: radial-gradient(circle at top, #0c2430 0, #020617 50%, #000000 100%); }</style>
+  </head>
+  <body class="min-h-screen text-white px-4 py-8">
+    <div class="max-w-3xl mx-auto space-y-6">
+      <header class="flex items-center justify-between">
+        <h1 class="text-3xl font-bold">📝 Reflections</h1>
+        <a href="/home" class="text-teal-300 hover:underline text-sm">← Home</a>
+      </header>
+      <p class="text-teal-100/60 text-sm">Research notes and observations from the archive.</p>
+      {% if entries.is_empty() %}
+        <p class="text-teal-100/50">No reflections published yet.</p>
+      {% else %}
+        <div class="space-y-4">
+          {% for entry in entries %}
+          <div class="bg-white/5 border border-teal-500/30 rounded-2xl p-5 backdrop-blur-md space-y-2">
+            {% if !entry.title.is_empty() %}<h2 class="font-semibold text-teal-100">{{ entry.title }}</h2>{% endif %}
+            <p class="text-xs text-teal-100/50">{{ entry.created_at }}</p>
+            <p class="text-sm text-teal-100/80 leading-relaxed">{{ entry.body }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </body>
+</html>

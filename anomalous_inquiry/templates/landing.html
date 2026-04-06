@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Anomalous Inquiry</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { background: radial-gradient(circle at top, #0c2430 0, #020617 50%, #000000 100%); }
+      .starfield { background-image: radial-gradient(circle, rgba(255,255,255,0.4) 1px, transparent 1px); background-size: 3px 3px; opacity: 0.3; }
+    </style>
+  </head>
+  <body class="min-h-screen text-white flex flex-col">
+    <div class="fixed inset-0 starfield pointer-events-none"></div>
+    <main class="relative flex-1 flex flex-col items-center justify-center px-4">
+      <div class="max-w-4xl mx-auto text-center space-y-10">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-2xl">🔭 Anomalous Inquiry</h1>
+        <p class="text-lg md:text-2xl text-teal-100/90 max-w-2xl mx-auto">A neutral, documentary archive at the limits of scientific understanding. No validation claims made.</p>
+        <div class="flex flex-wrap gap-4 justify-center mt-4">
+          <a href="/home" class="px-6 py-3 rounded-full bg-gradient-to-r from-teal-400 via-cyan-500 to-blue-600 font-semibold shadow-lg hover:scale-105 transition-transform">Enter the Archive</a>
+          <a href="/auth/login" class="px-6 py-3 rounded-full border border-teal-400/80 bg-black/40 backdrop-blur-md font-semibold hover:bg-teal-500/20 hover:scale-105 transition-transform">Sign In</a>
+        </div>
+        <div class="grid md:grid-cols-4 gap-4 mt-10">
+          <div class="bg-white/5 border border-teal-500/40 rounded-2xl p-4 backdrop-blur-md shadow-lg">
+            <h2 class="font-semibold mb-2">Parapsychology</h2>
+            <p class="text-sm text-teal-100/80">ESP, ganzfeld, PK, remote viewing and mediumship research.</p>
+          </div>
+          <div class="bg-white/5 border border-cyan-500/40 rounded-2xl p-4 backdrop-blur-md shadow-lg">
+            <h2 class="font-semibold mb-2">UAP</h2>
+            <p class="text-sm text-teal-100/80">Unidentified aerial phenomena: Nimitz, Roswell, CE archive.</p>
+          </div>
+          <div class="bg-white/5 border border-blue-500/40 rounded-2xl p-4 backdrop-blur-md shadow-lg">
+            <h2 class="font-semibold mb-2">Survival Research</h2>
+            <p class="text-sm text-teal-100/80">Near-death experiences, reincarnation cases, terminal lucidity.</p>
+          </div>
+          <div class="bg-white/5 border border-indigo-500/40 rounded-2xl p-4 backdrop-blur-md shadow-lg">
+            <h2 class="font-semibold mb-2">Altered States</h2>
+            <p class="text-sm text-teal-100/80">OBE, dream telepathy, lucid dreaming, visionary experiences.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

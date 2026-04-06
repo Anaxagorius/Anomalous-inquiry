@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: anomalous-inquiry
+    runtime: rust
+    buildCommand: cd anomalous_inquiry && cargo build --release
+    startCommand: ./anomalous_inquiry/target/release/anomalous_inquiry
+    envVars:
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: RUST_LOG
+        value: info
+    disk:
+      name: data
+      mountPath: /data
+      sizeGB: 1

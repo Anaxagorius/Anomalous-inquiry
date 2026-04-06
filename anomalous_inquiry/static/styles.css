@@ -273,3 +273,40 @@ footer {
 /* ── Methodology ── */
 .methodology ul { padding-left: 1.4rem; }
 .methodology li { margin-bottom: 0.4rem; }
+
+/* ── Organizations ── */
+.orgs-desc { color: var(--muted); margin-bottom: 2rem; }
+.org-category { margin-bottom: 2.5rem; }
+.org-category h2 { border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; margin-bottom: 1rem; }
+.org-list { list-style: none; padding: 0; margin: 0; }
+.org-item {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+}
+.org-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.35rem;
+}
+.org-name {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--accent);
+}
+a.org-name { text-decoration: none; }
+a.org-name:hover { color: var(--link-hover); text-decoration: underline; }
+.org-meta {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.org-desc { margin: 0 0 0.25rem; }
+.org-notes {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0;
+}

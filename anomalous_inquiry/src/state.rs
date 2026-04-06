@@ -9,13 +9,14 @@ use std::{
 use pulldown_cmark::{html, Options, Parser};
 use tera::Tera;
 
-use crate::models::{Article, Comment, TimelineEvent};
+use crate::models::{Article, Comment, Organization, TimelineEvent};
 
 #[derive(Clone)]
 pub struct AppState {
     pub articles: Arc<Vec<Article>>,
     pub comments: Arc<Mutex<Vec<Comment>>>,
     pub timeline: Arc<Vec<TimelineEvent>>,
+    pub organizations: Arc<Vec<Organization>>,
     pub tera: Arc<Tera>,
     pub session_token: Arc<Mutex<Option<String>>>,
 }
@@ -26,10 +27,12 @@ impl AppState {
         let articles = load_articles();
         let comments = load_comments();
         let timeline = load_timeline();
+        let organizations = load_organizations();
         AppState {
             articles: Arc::new(articles),
             comments: Arc::new(Mutex::new(comments)),
             timeline: Arc::new(timeline),
+            organizations: Arc::new(organizations),
             tera: Arc::new(tera),
             session_token: Arc::new(Mutex::new(None)),
         }
@@ -136,6 +139,17 @@ fn load_comments() -> Vec<Comment> {
 
 fn load_timeline() -> Vec<TimelineEvent> {
     let path = Path::new("content/timeline.json");
+    if !path.exists() {
+        return Vec::new();
+    }
+    fs::read_to_string(path)
+        .ok()
+        .and_then(|s| serde_json::from_str(&s).ok())
+        .unwrap_or_default()
+}
+
+fn load_organizations() -> Vec<Organization> {
+    let path = Path::new("content/organizations.json");
     if !path.exists() {
         return Vec::new();
     }

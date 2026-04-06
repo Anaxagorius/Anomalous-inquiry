@@ -20,6 +20,90 @@
     ]
   },
   {
+    "date": "1944-01-01",
+    "title": "Foo Fighters Reported by Allied Aircrews",
+    "description": "Allied bomber and fighter crews operating over Europe and the Pacific begin reporting anomalous luminous objects — small, fast-moving spheres of light — that manoeuvre alongside aircraft without attacking. German and Japanese pilots make equivalent reports, ruling out a single-nation experimental programme. The objects become known as 'Foo Fighters'. No conventional explanation has been established for all reported cases.",
+    "category": "UAP",
+    "sources": [
+      "Randle, K. and Estes, R., Faces of the Visitors (1997)",
+      "Vesco, R. and Childress, D., Man-Made UFOs 1944–1994 (1994)",
+      "Contemporary USAAF mission reports, National Archives"
+    ]
+  },
+  {
+    "date": "1947-06-24",
+    "title": "Kenneth Arnold Sighting Near Mount Rainier",
+    "description": "Civilian pilot Kenneth Arnold reports observing nine crescent-shaped objects flying in formation at high speed near Mount Rainier, Washington. Arnold describes their movement as resembling 'a saucer skipping across water,' giving rise to the term 'flying saucer.' The report receives wide national press attention and triggers a wave of subsequent sightings across the United States.",
+    "category": "UAP",
+    "sources": [
+      "Arnold, K., Report to Army Air Corps intelligence officer, Pendleton, Oregon, June 25, 1947",
+      "Arnold, K. and Palmer, R., The Coming of the Saucers (1952)",
+      "Project Blue Book Historical Record Card, Case No. 33"
+    ]
+  },
+  {
+    "date": "1947-07-08",
+    "title": "Roswell Army Air Field Press Release",
+    "description": "Colonel William Blanchard's public information officer issues a press release announcing the recovery of a 'flying disc' from a ranch near Roswell, New Mexico. The statement is retracted within hours by General Ramey at Fort Worth.",
+    "category": "UAP",
+    "sources": [
+      "Roswell Daily Record, July 8, 1947",
+      "Associated Press wire, July 8, 1947",
+      "USAF Report on Roswell, 1994"
+    ]
+  },
+  {
+    "date": "1947-12-30",
+    "title": "Project Sign Established at Wright-Patterson AFB",
+    "description": "The U.S. Air Force formally establishes Project Sign, the first official programme for investigating unidentified flying objects, under the Air Materiel Command at Wright-Patterson Air Force Base, Ohio. The programme is tasked with collecting, collating, evaluating, and distributing all information concerning UAP sightings, with priority on assessing any national security threat.",
+    "category": "UAP",
+    "sources": [
+      "Air Materiel Command letter, December 30, 1947 (declassified)",
+      "Ruppelt, E.J., The Report on Unidentified Flying Objects (1956)"
+    ]
+  },
+  {
+    "date": "1952-03-01",
+    "title": "Project Blue Book Established",
+    "description": "The U.S. Air Force establishes Project Blue Book as its primary ongoing UFO investigation unit, replacing Project Grudge. Captain Edward Ruppelt is named director. Over 17 years, Blue Book investigates 12,618 reported sightings, of which 701 remain 'unidentified' at the programme's closure. J. Allen Hynek serves as scientific consultant throughout.",
+    "category": "UAP",
+    "sources": [
+      "Ruppelt, E.J., The Report on Unidentified Flying Objects (1956)",
+      "Project Blue Book Archive, National Archives"
+    ]
+  },
+  {
+    "date": "1952-07-19",
+    "title": "Washington D.C. Radar Incursions",
+    "description": "Multiple unidentified radar returns tracked over restricted airspace above Washington D.C. by Andrews AFB and Washington National Airport. Visual confirmation reported by pilots and ground crew over two consecutive weekends.",
+    "category": "UAP",
+    "sources": [
+      "Project Blue Book files, Case 1501",
+      "Washington Post, July 21, 1952"
+    ]
+  },
+  {
+    "date": "1964-04-24",
+    "title": "Socorro, New Mexico — Lonnie Zamora Sighting",
+    "description": "Police officer Lonnie Zamora reports observing an egg-shaped craft on the ground attended by two small humanoid figures outside Socorro, New Mexico. Physical trace evidence including scorched vegetation and indentations was documented by investigators.",
+    "category": "CE3",
+    "sources": [
+      "Project Blue Book investigation report",
+      "Coral and Jim Lorenzen, UFOs: The Whole Story (1969)"
+    ]
+  },
+  {
+    "date": "1969-12-17",
+    "title": "Project Blue Book Disbanded",
+    "description": "Following the University of Colorado's Condon Report, which concluded that further UFO investigation was unlikely to yield scientific benefit, the U.S. Air Force officially disbands Project Blue Book on December 17, 1969. The programme's 12,618-case archive is eventually declassified and transferred to the National Archives. J. Allen Hynek publicly disputes the Condon Report's conclusions.",
+    "category": "UAP",
+    "sources": [
+      "USAF press release, December 17, 1969",
+      "Condon, E.U. (ed.), Scientific Study of Unidentified Flying Objects (1969)",
+      "Hynek, J.A., The UFO Experience (1972)"
+    ]
+  },
+  {
     "date": "1972-06-01",
     "title": "SRI Remote Viewing Programme Begins",
     "description": "Physicists Russell Targ and Harold Puthoff at Stanford Research Institute (SRI) begin government-contracted laboratory investigations of remote viewing and other anomalous cognition phenomena. Initial work involves subjects Ingo Swann and Pat Price. CIA funding is provided under contract with SRI.",
@@ -59,6 +143,16 @@
     ]
   },
   {
+    "date": "1976-09-19",
+    "title": "Tehran F-4 Intercept Encounter",
+    "description": "Two Iranian Air Force F-4 Phantom fighters scrambled to intercept an unidentified aerial object over Tehran experience sequential avionics and weapons system failures at close range. A DIA report filed the following day characterises the case as meeting all criteria for a valid UAP study, citing radar-visual correlation, credible trained witnesses, electromagnetic effects, and sustained duration.",
+    "category": "CE1",
+    "sources": [
+      "DIA Report: Iran: Unidentified Flying Object, September 19, 1976 (declassified)",
+      "Kean, L., UFOs: Generals, Pilots, and Government Officials Go on the Record (2010)"
+    ]
+  },
+  {
     "date": "1979-01-01",
     "title": "Princeton PEAR Laboratory Founded",
     "description": "Robert G. Jahn, Dean of Engineering at Princeton University, establishes the Princeton Engineering Anomalies Research (PEAR) laboratory to conduct systematic studies of possible mind-matter interaction using electronic random event generators. The laboratory operates until 2007 and accumulates approximately 2.5 million experimental trials.",
@@ -66,6 +160,27 @@
     "sources": [
       "Robert G. Jahn and Brenda J. Dunne, Margins of Reality (1987)",
       "PEAR Technical Note Series, Princeton University"
+    ]
+  },
+  {
+    "date": "1980-12-26",
+    "title": "Rendlesham Forest Incident",
+    "description": "USAF security personnel at RAF Woodbridge, Suffolk, England, observe and approach an unidentified structured object in Rendlesham Forest. Over the following two nights, Deputy Base Commander Lieutenant Colonel Charles Halt leads a team that observes a pulsing object directing light beams toward the base. Physical trace evidence, elevated radiation readings, and the official Halt memorandum document the incidents.",
+    "category": "CE1",
+    "sources": [
+      "Halt, C., Memorandum to UK Ministry of Defence, January 13, 1981 (declassified 1983)",
+      "UK National Archives, UFO Files series (2008–2013)"
+    ]
+  },
+  {
+    "date": "1989-11-29",
+    "title": "Belgium Black Triangle Wave Begins",
+    "description": "The first of a series of mass sightings of large, silent triangular objects over Belgium, initiating a wave that continues through 1990. At its peak, over 13,000 witnesses report sightings. The Belgian Air Force launches F-16 intercepts after radar confirmation; pilots report radar locks followed by sudden evasive manoeuvres. The Belgian Air Force releases full investigation files and acknowledges the objects were unidentified.",
+    "category": "UAP",
+    "sources": [
+      "Belgian Air Force investigation, released publicly 1990",
+      "Meessen, A., Journal of Scientific Exploration 23(3), 2009",
+      "Kean, L., UFOs: Generals, Pilots, and Government Officials Go on the Record (2010), Chapter 1"
     ]
   },
   {
@@ -89,12 +204,34 @@
     ]
   },
   {
+    "date": "1997-03-13",
+    "title": "Phoenix Lights Mass Sighting",
+    "description": "Thousands of witnesses across Arizona and Nevada report a massive V-shaped formation of lights moving silently from northwest to southeast over a corridor of several hundred miles. A separate set of stationary lights appears over Phoenix later in the evening. Arizona Governor Fife Symington, who held a mocking press conference at the time, later disclosed that he himself witnessed a large structured craft and that his response had been intended to manage public anxiety.",
+    "category": "UAP",
+    "sources": [
+      "National UFO Reporting Center, March 1997 database",
+      "Symington, F., testimony and interviews, 2007",
+      "Kitei, L., The Phoenix Lights (2004)"
+    ]
+  },
+  {
     "date": "2001-12-01",
     "title": "Van Lommel NDE Prospective Study Published in The Lancet",
     "description": "Cardiologist Pim van Lommel and colleagues publish a prospective study of 344 cardiac arrest survivors in The Lancet, finding that 18% reported an NDE. The study finds no correlation between NDE occurrence and duration of unconsciousness, medication, or prior awareness of NDEs, and documents cases with apparently accurate out-of-body perceptions during verified cardiac standstill.",
     "category": "Parapsychology",
     "sources": [
       "van Lommel, P. et al., The Lancet 358(9298), 2039–2045 (2001)"
+    ]
+  },
+  {
+    "date": "2004-11-14",
+    "title": "USS Nimitz FLIR Encounter",
+    "description": "F/A-18 pilots from the USS Nimitz carrier strike group intercept an unidentified aerial object approximately 100 miles southwest of San Diego. Commander David Fravor reports a close visual encounter with a white oblong object exhibiting anomalous flight characteristics. Footage officially released by DoD in 2020.",
+    "category": "CE1",
+    "sources": [
+      "DoD FOIA release, April 2020",
+      "New York Times, December 16, 2017",
+      "UAPTF Preliminary Assessment, 2021"
     ]
   },
   {
@@ -116,45 +253,13 @@
     ]
   },
   {
-    "date": "1947-07-08",
-    "title": "Roswell Army Air Field Press Release",
-    "description": "Colonel William Blanchard's public information officer issues a press release announcing the recovery of a 'flying disc' from a ranch near Roswell, New Mexico. The statement is retracted within hours by General Ramey at Fort Worth.",
+    "date": "2017-12-16",
+    "title": "New York Times Discloses AATIP Programme",
+    "description": "Journalists Leslie Kean, Ralph Blumenthal, and Helene Cooper publish an article in the New York Times disclosing the existence of the Advanced Aerospace Threat Identification Program (AATIP) and publishing the Nimitz FLIR1 video, which DoD subsequently confirms is authentic. The article is widely considered a turning point in the public and institutional engagement with UAP. Former AATIP director Luis Elizondo is named as a source.",
     "category": "UAP",
     "sources": [
-      "Roswell Daily Record, July 8, 1947",
-      "Associated Press wire, July 8, 1947",
-      "USAF Report on Roswell, 1994"
-    ]
-  },
-  {
-    "date": "1952-07-19",
-    "title": "Washington D.C. Radar Incursions",
-    "description": "Multiple unidentified radar returns tracked over restricted airspace above Washington D.C. by Andrews AFB and Washington National Airport. Visual confirmation reported by pilots and ground crew over two consecutive weekends.",
-    "category": "UAP",
-    "sources": [
-      "Project Blue Book files, Case 1501",
-      "Washington Post, July 21, 1952"
-    ]
-  },
-  {
-    "date": "1964-04-24",
-    "title": "Socorro, New Mexico — Lonnie Zamora Sighting",
-    "description": "Police officer Lonnie Zamora reports observing an egg-shaped craft on the ground attended by two small humanoid figures outside Socorro, New Mexico. Physical trace evidence including scorched vegetation and indentations was documented by investigators.",
-    "category": "CE3",
-    "sources": [
-      "Project Blue Book investigation report",
-      "Coral and Jim Lorenzen, UFOs: The Whole Story (1969)"
-    ]
-  },
-  {
-    "date": "2004-11-14",
-    "title": "USS Nimitz FLIR Encounter",
-    "description": "F/A-18 pilots from the USS Nimitz carrier strike group intercept an unidentified aerial object approximately 100 miles southwest of San Diego. Commander David Fravor reports a close visual encounter with a white oblong object exhibiting anomalous flight characteristics. Footage officially released by DoD in 2020.",
-    "category": "CE1",
-    "sources": [
-      "DoD FOIA release, April 2020",
-      "New York Times, December 16, 2017",
-      "UAPTF Preliminary Assessment, 2021"
+      "Kean, L., Blumenthal, R., and Cooper, H., New York Times, December 16, 2017",
+      "DoD confirmation statement, December 16, 2017"
     ]
   },
   {
@@ -165,6 +270,46 @@
     "sources": [
       "DoD FOIA release, May 2021",
       "The Debrief, May 14, 2021"
+    ]
+  },
+  {
+    "date": "2020-04-27",
+    "title": "DoD Officially Releases UAP Videos",
+    "description": "The U.S. Department of Defense officially releases three infrared sensor videos — the Nimitz FLIR1 (2004), Gimbal, and GoFast (both 2015) — confirming their authenticity and acknowledging that the objects depicted 'remain unexplained.' This is the first official U.S. government release of UAP sensor footage.",
+    "category": "UAP",
+    "sources": [
+      "DoD press release, April 27, 2020",
+      "Official video release, media.defense.gov"
+    ]
+  },
+  {
+    "date": "2021-06-25",
+    "title": "UAPTF Preliminary Assessment Released",
+    "description": "The U.S. Office of the Director of National Intelligence releases the UAP Task Force Preliminary Assessment, the first official public UAP analysis report since Project Blue Book. The report reviews 144 cases from government sources between 2004 and 2021; 143 are classified as unexplained. The document identifies five potential explanatory categories and calls for improved data collection standards.",
+    "category": "UAP",
+    "sources": [
+      "ODNI, Preliminary Assessment: Unidentified Aerial Phenomena, June 25, 2021"
+    ]
+  },
+  {
+    "date": "2022-07-20",
+    "title": "All-domain Anomaly Resolution Office (AARO) Established",
+    "description": "The Department of Defense establishes the All-domain Anomaly Resolution Office (AARO) as the primary U.S. government body for UAP investigation, superseding the UAP Task Force. AARO's mandate covers aerial, sub-surface, and near-space anomalies. The FY2022 National Defense Authorization Act requires annual Congressional reporting and creates whistleblower protections for personnel with UAP-related information.",
+    "category": "UAP",
+    "sources": [
+      "DoD press release, July 20, 2022",
+      "National Defense Authorization Act FY2022, Section 1683"
+    ]
+  },
+  {
+    "date": "2023-07-26",
+    "title": "Congressional Hearing: UAP Whistleblower Testimony",
+    "description": "The House Committee on Oversight and Accountability holds a public hearing on UAP at which Commander Ryan Graves (ret.) and Commander David Fravor (ret.) testify about their military UAP encounters. Former intelligence officer David Grusch testifies under oath that the U.S. government operates a multi-decade programme to recover and analyse non-human technology. AARO has not corroborated Grusch's claims in public reporting.",
+    "category": "UAP",
+    "sources": [
+      "House Committee on Oversight and Accountability hearing transcript, July 26, 2023",
+      "Graves, R., written testimony, July 2023",
+      "Grusch, D., written testimony, July 2023"
     ]
   }
 ]

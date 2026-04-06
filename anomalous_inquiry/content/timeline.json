@@ -1,0 +1,54 @@
+[
+  {
+    "date": "1947-07-08",
+    "title": "Roswell Army Air Field Press Release",
+    "description": "Colonel William Blanchard's public information officer issues a press release announcing the recovery of a 'flying disc' from a ranch near Roswell, New Mexico. The statement is retracted within hours by General Ramey at Fort Worth.",
+    "category": "UAP",
+    "sources": [
+      "Roswell Daily Record, July 8, 1947",
+      "Associated Press wire, July 8, 1947",
+      "USAF Report on Roswell, 1994"
+    ]
+  },
+  {
+    "date": "1952-07-19",
+    "title": "Washington D.C. Radar Incursions",
+    "description": "Multiple unidentified radar returns tracked over restricted airspace above Washington D.C. by Andrews AFB and Washington National Airport. Visual confirmation reported by pilots and ground crew over two consecutive weekends.",
+    "category": "UAP",
+    "sources": [
+      "Project Blue Book files, Case 1501",
+      "Washington Post, July 21, 1952"
+    ]
+  },
+  {
+    "date": "1964-04-24",
+    "title": "Socorro, New Mexico — Lonnie Zamora Sighting",
+    "description": "Police officer Lonnie Zamora reports observing an egg-shaped craft on the ground attended by two small humanoid figures outside Socorro, New Mexico. Physical trace evidence including scorched vegetation and indentations was documented by investigators.",
+    "category": "CE3",
+    "sources": [
+      "Project Blue Book investigation report",
+      "Coral and Jim Lorenzen, UFOs: The Whole Story (1969)"
+    ]
+  },
+  {
+    "date": "2004-11-14",
+    "title": "USS Nimitz FLIR Encounter",
+    "description": "F/A-18 pilots from the USS Nimitz carrier strike group intercept an unidentified aerial object approximately 100 miles southwest of San Diego. Commander David Fravor reports a close visual encounter with a white oblong object exhibiting anomalous flight characteristics. Footage officially released by DoD in 2020.",
+    "category": "CE1",
+    "sources": [
+      "DoD FOIA release, April 2020",
+      "New York Times, December 16, 2017",
+      "UAPTF Preliminary Assessment, 2021"
+    ]
+  },
+  {
+    "date": "2019-04-25",
+    "title": "USS Omaha Sphere Footage",
+    "description": "Spherical unidentified object filmed by naval personnel from the USS Omaha. The object reportedly descends into the ocean without impact debris. Footage corroborated by multiple crew members.",
+    "category": "UAP",
+    "sources": [
+      "DoD FOIA release, May 2021",
+      "The Debrief, May 14, 2021"
+    ]
+  }
+]

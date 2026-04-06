@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Articles tagged: <span class="tag">{{ tag }}</span></h1>
+<p><a href="/tags">← All tags</a></p>
+<ul class="article-list">
+  {% for a in articles %}
+  <li>
+    <span class="article-date">{{ a.published }}</span>
+    <a href="/articles/{{ a.slug }}">{{ a.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

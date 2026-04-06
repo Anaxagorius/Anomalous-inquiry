@@ -87,6 +87,7 @@ pub async fn login_post(State(state): State<AppState>, cookies: Cookies, Form(fo
         Cookie::build(("ai_session", token))
             .path("/")
             .http_only(true)
+            .secure(true)
             .build(),
     );
     (StatusCode::FOUND, [(header::LOCATION, "/home")]).into_response()

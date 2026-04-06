@@ -72,6 +72,7 @@ pub async fn admin_login_post(
         Cookie::build((ADMIN_COOKIE, token))
             .path("/")
             .http_only(true)
+            .secure(true)
             .build(),
     );
     if must_change {
@@ -113,6 +114,7 @@ pub async fn admin_change_password_post(
         Cookie::build((ADMIN_COOKIE, token))
             .path("/")
             .http_only(true)
+            .secure(true)
             .build(),
     );
     (StatusCode::FOUND, [(header::LOCATION, "/home")]).into_response()

@@ -3,7 +3,7 @@ use crate::auth::HtmlTemplate;
 use crate::state::AppState;
 use crate::templates::{
     ParapsychologyTemplate, EspTemplate, GanzfeldTemplate, PrecognitionTemplate,
-    PsychokinesiTemplate, PearLabTemplate, RemoteViewingTemplate, MediumshipTemplate,
+    PsychokinesisTemplate, PearLabTemplate, RemoteViewingTemplate, MediumshipTemplate,
     ReincarnationTemplate, TerminalLucidityTemplate,
 };
 
@@ -25,7 +25,7 @@ async fn hub() -> impl IntoResponse { HtmlTemplate(ParapsychologyTemplate) }
 async fn esp() -> impl IntoResponse { HtmlTemplate(EspTemplate) }
 async fn ganzfeld() -> impl IntoResponse { HtmlTemplate(GanzfeldTemplate) }
 async fn precognition() -> impl IntoResponse { HtmlTemplate(PrecognitionTemplate) }
-async fn psychokinesis() -> impl IntoResponse { HtmlTemplate(PsychokinesiTemplate) }
+async fn psychokinesis() -> impl IntoResponse { HtmlTemplate(PsychokinesisTemplate) }
 async fn pear_lab() -> impl IntoResponse { HtmlTemplate(PearLabTemplate) }
 async fn remote_viewing() -> impl IntoResponse { HtmlTemplate(RemoteViewingTemplate) }
 async fn mediumship() -> impl IntoResponse { HtmlTemplate(MediumshipTemplate) }

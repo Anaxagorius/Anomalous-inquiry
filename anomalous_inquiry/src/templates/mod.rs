@@ -28,7 +28,7 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "esp.html")] pub struct EspTemplate;
 #[derive(Template)] #[template(path = "ganzfeld.html")] pub struct GanzfeldTemplate;
 #[derive(Template)] #[template(path = "precognition.html")] pub struct PrecognitionTemplate;
-#[derive(Template)] #[template(path = "psychokinesis.html")] pub struct PsychokinesiTemplate;
+#[derive(Template)] #[template(path = "psychokinesis.html")] pub struct PsychokinesisTemplate;
 #[derive(Template)] #[template(path = "pear_lab.html")] pub struct PearLabTemplate;
 #[derive(Template)] #[template(path = "remote_viewing.html")] pub struct RemoteViewingTemplate;
 #[derive(Template)] #[template(path = "mediumship.html")] pub struct MediumshipTemplate;

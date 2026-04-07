@@ -55,6 +55,20 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "trance.html")] pub struct TranceTemplate;
 #[derive(Template)] #[template(path = "dissociation.html")] pub struct DissociationTemplate;
 #[derive(Template)] #[template(path = "visionary.html")] pub struct VisionaryTemplate;
+#[derive(Template)] #[template(path = "trauma.html")] pub struct TraumaTemplate;
+#[derive(Template)] #[template(path = "meditation.html")] pub struct MeditationTemplate;
+#[derive(Template)] #[template(path = "kundalini.html")] pub struct KundaliniTemplate;
+#[derive(Template)] #[template(path = "breathwork.html")] pub struct BreathworkTemplate;
+#[derive(Template)] #[template(path = "possession.html")] pub struct PossessionTemplate;
+#[derive(Template)] #[template(path = "altered_time.html")] pub struct AlteredTimeTemplate;
+#[derive(Template)] #[template(path = "enhanced_senses.html")] pub struct EnhancedSensesTemplate;
+#[derive(Template)] #[template(path = "high_affect.html")] pub struct HighAffectTemplate;
+#[derive(Template)] #[template(path = "gnosis.html")] pub struct GnosisTemplate;
+#[derive(Template)] #[template(path = "group_consciousness.html")] pub struct GroupConsciousnessTemplate;
+#[derive(Template)] #[template(path = "psychosis_adjacent.html")] pub struct PsychosisAdjacentTemplate;
+#[derive(Template)] #[template(path = "contact_states.html")] pub struct ContactStatesTemplate;
+#[derive(Template)] #[template(path = "ontological.html")] pub struct OntologicalTemplate;
+#[derive(Template)] #[template(path = "liminal.html")] pub struct LiminalTemplate;
 
 // Cryptozoology hub + category pages
 #[derive(Template)] #[template(path = "cryptozoology.html")] pub struct CryptozoologyTemplate;

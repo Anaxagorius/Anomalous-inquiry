@@ -56,6 +56,21 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "dissociation.html")] pub struct DissociationTemplate;
 #[derive(Template)] #[template(path = "visionary.html")] pub struct VisionaryTemplate;
 
+// Cryptozoology hub + category pages
+#[derive(Template)] #[template(path = "cryptozoology.html")] pub struct CryptozoologyTemplate;
+#[derive(Template)] #[template(path = "crypto_hominid.html")] pub struct CryptoHominidTemplate;
+#[derive(Template)] #[template(path = "crypto_canid.html")] pub struct CryptoCanidTemplate;
+#[derive(Template)] #[template(path = "crypto_feline.html")] pub struct CryptoFelineTemplate;
+#[derive(Template)] #[template(path = "crypto_reptilian.html")] pub struct CryptoReptilianTemplate;
+#[derive(Template)] #[template(path = "crypto_aquatic.html")] pub struct CryptoAquaticTemplate;
+#[derive(Template)] #[template(path = "crypto_avian.html")] pub struct CryptoAvianTemplate;
+#[derive(Template)] #[template(path = "crypto_insectoid.html")] pub struct CryptoInsectoidTemplate;
+#[derive(Template)] #[template(path = "crypto_hybrid.html")] pub struct CryptoHybridTemplate;
+#[derive(Template)] #[template(path = "crypto_fossil_survivor.html")] pub struct CryptoFossilSurvivorTemplate;
+#[derive(Template)] #[template(path = "crypto_regional.html")] pub struct CryptoRegionalTemplate;
+#[derive(Template)] #[template(path = "crypto_aerial.html")] pub struct CryptoAerialTemplate;
+#[derive(Template)] #[template(path = "crypto_unknown.html")] pub struct CryptoUnknownTemplate;
+
 // NHI hub + category pages
 #[derive(Template)] #[template(path = "nhi.html")] pub struct NhiTemplate;
 #[derive(Template)] #[template(path = "nhi_et.html")] pub struct NhiEtTemplate;

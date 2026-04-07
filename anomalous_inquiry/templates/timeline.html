@@ -24,6 +24,11 @@
             </div>
             <h2 class="font-semibold text-teal-100 mb-1">{{ event.title }}</h2>
             <p class="text-sm text-teal-100/70">{{ event.description }}</p>
+            {% if let Some(url) = event.link %}
+            <div class="mt-3">
+              <a href="{{ url }}" class="inline-flex items-center gap-1 text-xs font-medium text-cyan-300 hover:text-cyan-100 border border-cyan-500/40 hover:border-cyan-300/60 rounded-full px-3 py-1 transition">Read more →</a>
+            </div>
+            {% endif %}
           </div>
         </div>
         {% endfor %}

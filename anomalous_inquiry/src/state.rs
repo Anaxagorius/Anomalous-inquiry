@@ -34,6 +34,8 @@ pub struct TimelineEvent {
     pub description: String,
     pub category: String,
     pub sources: Vec<String>,
+    pub link: Option<String>,
+    pub article_slug: Option<String>,
 }
 
 #[derive(Clone, Debug, Serialize, Deserialize)]

@@ -100,3 +100,24 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "nhi_aquatic.html")] pub struct NhiAquaticTemplate;
 #[derive(Template)] #[template(path = "nhi_other.html")] pub struct NhiOtherTemplate;
 #[derive(Template)] #[template(path = "nhi_documentation.html")] pub struct NhiDocumentationTemplate;
+
+// NHI Species & Race Index
+#[derive(Template)] #[template(path = "nhi_races.html")] pub struct NhiRacesTemplate;
+#[derive(Template)] #[template(path = "nhi_race_greys.html")] pub struct NhiRaceGreysTemplate;
+#[derive(Template)] #[template(path = "nhi_race_tall_whites.html")] pub struct NhiRaceTallWhitesTemplate;
+#[derive(Template)] #[template(path = "nhi_race_nordics.html")] pub struct NhiRaceNordicsTemplate;
+#[derive(Template)] #[template(path = "nhi_race_reptilians.html")] pub struct NhiRaceReptiliansTemplate;
+#[derive(Template)] #[template(path = "nhi_race_mantids.html")] pub struct NhiRaceMantidsTemplate;
+#[derive(Template)] #[template(path = "nhi_race_avians.html")] pub struct NhiRaceAviansTemplate;
+#[derive(Template)] #[template(path = "nhi_race_maitre.html")] pub struct NhiRaceMaitreTemplate;
+#[derive(Template)] #[template(path = "nhi_race_sirians.html")] pub struct NhiRaceSiriansTemplate;
+#[derive(Template)] #[template(path = "nhi_race_arcturians.html")] pub struct NhiRaceArcturiansTemplate;
+#[derive(Template)] #[template(path = "nhi_race_andromedans.html")] pub struct NhiRaceAndromedansTemplate;
+#[derive(Template)] #[template(path = "nhi_race_lyrans.html")] pub struct NhiRaceLyransTemplate;
+#[derive(Template)] #[template(path = "nhi_race_tau_cetians.html")] pub struct NhiRaceTauCetiansTemplate;
+#[derive(Template)] #[template(path = "nhi_race_ebens.html")] pub struct NhiRaceEbensTemplate;
+#[derive(Template)] #[template(path = "nhi_race_ummites.html")] pub struct NhiRaceUmmitesTemplate;
+#[derive(Template)] #[template(path = "nhi_race_shadow_beings.html")] pub struct NhiRaceShadowBeingsTemplate;
+#[derive(Template)] #[template(path = "nhi_race_anunnaki.html")] pub struct NhiRaceAnunnakiTemplate;
+#[derive(Template)] #[template(path = "nhi_race_egarot.html")] pub struct NhiRaceEgarotTemplate;
+#[derive(Template)] #[template(path = "nhi_race_solipsi_rai.html")] pub struct NhiRaceSolipsiRaiTemplate;

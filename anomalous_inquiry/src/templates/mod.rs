@@ -110,6 +110,7 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "paranormal_demons.html")] pub struct ParanormalDemonsTemplate;
 #[derive(Template)] #[template(path = "paranormal_witchcraft.html")] pub struct ParanormalWitchcraftTemplate;
 #[derive(Template)] #[template(path = "paranormal_haunted.html")] pub struct ParanormalHauntedTemplate;
+#[derive(Template)] #[template(path = "paranormal_exorcism.html")] pub struct ParanormalExorcismTemplate;
 
 // NHI Species & Race Index
 #[derive(Template)] #[template(path = "nhi_races.html")] pub struct NhiRacesTemplate;

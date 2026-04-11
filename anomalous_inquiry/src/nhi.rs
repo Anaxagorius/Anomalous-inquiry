@@ -81,7 +81,7 @@ async fn race_lyrans()      -> impl IntoResponse { HtmlTemplate(NhiRaceLyransTem
 async fn race_tau_cetians() -> impl IntoResponse { HtmlTemplate(NhiRaceTauCetiansTemplate) }
 async fn race_ebens()       -> impl IntoResponse { HtmlTemplate(NhiRaceEbensTemplate) }
 async fn race_ummites()     -> impl IntoResponse { HtmlTemplate(NhiRaceUmmitesTemplate) }
-async fn race_shadow_beings()-> impl IntoResponse { HtmlTemplate(NhiRaceShadowBeingsTemplate) }
+async fn race_shadow_beings() -> impl IntoResponse { HtmlTemplate(NhiRaceShadowBeingsTemplate) }
 async fn race_anunnaki()    -> impl IntoResponse { HtmlTemplate(NhiRaceAnunnakiTemplate) }
 async fn race_egarot()      -> impl IntoResponse { HtmlTemplate(NhiRaceEgarotTemplate) }
 async fn race_solipsi_rai() -> impl IntoResponse { HtmlTemplate(NhiRaceSolipsiRaiTemplate) }

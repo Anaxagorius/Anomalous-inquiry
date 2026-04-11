@@ -11,6 +11,7 @@ mod survival;
 mod altered_states;
 mod nhi;
 mod cryptozoology;
+mod paranormal;
 
 use axum::{Router, routing::get, extract::State, response::IntoResponse, http::{StatusCode, header}};
 use tower_cookies::{CookieManagerLayer, Cookies};
@@ -42,6 +43,7 @@ async fn main() -> anyhow::Result<()> {
         .nest("/altered-states", altered_states::routes())
         .nest("/nhi", nhi::routes())
         .nest("/cryptozoology", cryptozoology::routes())
+        .nest("/paranormal", paranormal::routes())
         .layer(CookieManagerLayer::new())
         .with_state(state);
 

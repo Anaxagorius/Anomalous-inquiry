@@ -101,6 +101,16 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "nhi_other.html")] pub struct NhiOtherTemplate;
 #[derive(Template)] #[template(path = "nhi_documentation.html")] pub struct NhiDocumentationTemplate;
 
+// Paranormal hub + category pages
+#[derive(Template)] #[template(path = "paranormal.html")] pub struct ParanormalTemplate;
+#[derive(Template)] #[template(path = "paranormal_ghosts.html")] pub struct ParanormalGhostsTemplate;
+#[derive(Template)] #[template(path = "paranormal_vampires.html")] pub struct ParanormalVampiresTemplate;
+#[derive(Template)] #[template(path = "paranormal_werewolves.html")] pub struct ParanormalWerewolvesTemplate;
+#[derive(Template)] #[template(path = "paranormal_zombies.html")] pub struct ParanormalZombiesTemplate;
+#[derive(Template)] #[template(path = "paranormal_demons.html")] pub struct ParanormalDemonsTemplate;
+#[derive(Template)] #[template(path = "paranormal_witchcraft.html")] pub struct ParanormalWitchcraftTemplate;
+#[derive(Template)] #[template(path = "paranormal_haunted.html")] pub struct ParanormalHauntedTemplate;
+
 // NHI Species & Race Index
 #[derive(Template)] #[template(path = "nhi_races.html")] pub struct NhiRacesTemplate;
 #[derive(Template)] #[template(path = "nhi_race_greys.html")] pub struct NhiRaceGreysTemplate;

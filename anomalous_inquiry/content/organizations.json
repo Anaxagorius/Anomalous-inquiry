@@ -286,5 +286,397 @@
     "website": null,
     "founded": "1990",
     "notes": null
+  },
+  {
+    "name": "British UFO Research Association (BUFORA)",
+    "category": "UAP Archival & Historical Organizations",
+    "description": "The largest and oldest civilian UAP research organisation in the United Kingdom, formed in 1962 through the merger of several regional UFO groups. BUFORA has operated continuously for over six decades, publishing the BUFORA Bulletin and UFO Times, training field investigators, maintaining a national case database, and hosting annual conferences. Formerly led by researchers including Jenny Randles and Timothy Good.",
+    "website": "https://www.bufora.org.uk",
+    "founded": "1962",
+    "notes": null
+  },
+  {
+    "name": "UAP Disclosure Fund",
+    "category": "UAP Government Programs (Contemporary)",
+    "description": "A nonprofit political action and lobbying organisation founded in 2023 by attorney Daniel Sheehan and others to advance legislative efforts for UAP transparency and disclosure in the United States Congress. The Fund supported drafting of provisions in the National Defense Authorization Act (NDAA) relating to UAP reporting and non-human intelligence, and provided support infrastructure for whistleblower protections under the Intelligence Community Whistleblower Protection Act.",
+    "website": "https://uapdisclosurefund.org",
+    "founded": "2023",
+    "notes": "Founded by Daniel Sheehan"
+  },
+  {
+    "name": "International Association for Near-Death Studies (IANDS)",
+    "category": "Survival Research Organizations",
+    "description": "The leading nonprofit membership organisation dedicated to the scientific study of near-death experiences (NDEs). Founded in 1981 following the publication of Raymond Moody's Life After Life, IANDS publishes the Journal of Near-Death Studies, hosts annual conferences, supports local support groups for NDE experiencers, and maintains the largest curated database of NDE accounts. Key figures include Raymond Moody, Kenneth Ring, Pim van Lommel, and Bruce Greyson.",
+    "website": "https://iands.org",
+    "founded": "1981",
+    "notes": null
+  },
+  {
+    "name": "Windbridge Research Center",
+    "category": "Survival Research Organizations",
+    "description": "An independent research institute established to study phenomena suggestive of survival of consciousness after bodily death, with particular emphasis on evidential mediumship under blinded experimental conditions. Founded by Julie Beischel and Mark Boccuzzi, Windbridge employs an eight-step screening and training protocol for its Certified Research Mediums. Its peer-reviewed studies have been published in mainstream journals including Frontiers in Human Neuroscience.",
+    "website": "https://www.windbridge.org",
+    "founded": "2008",
+    "notes": "Founded by Julie Beischel and Mark Boccuzzi"
+  },
+  {
+    "name": "Forever Family Foundation",
+    "category": "Survival Research Organizations",
+    "description": "A nonprofit organisation founded in 2004 by Bob and Phran Ginsberg following the death of their daughter. The Foundation funds scientific research into the continuity of consciousness and operates a certification programme for research mediums in collaboration with academic researchers. It bridges experiencer support services with scientific investigation.",
+    "website": "https://www.foreverfamilyfoundation.org",
+    "founded": "2004",
+    "notes": null
+  },
+  {
+    "name": "Survival Research Foundation",
+    "category": "Survival Research Organizations",
+    "description": "Formerly the Psychical Research Foundation (PRF), established at Duke University in 1960 by Charles Ozanne to investigate whether consciousness survives bodily death. The PRF conducted systematic field investigations of poltergeist and apparition cases, and early OBE research with Alex Tanous and Karlis Osis. Reorganised as the Survival Research Foundation in the 1980s.",
+    "website": null,
+    "founded": "1960",
+    "notes": "Originally named the Psychical Research Foundation (PRF); Duke University"
+  },
+  {
+    "name": "Society for Scientific Exploration (SSE)",
+    "category": "Survival Research Organizations",
+    "description": "An international multidisciplinary scientific organisation founded in 1982 to provide a professional forum for the critical examination of anomalous phenomena and the extension of scientific thinking to frontier questions, including survival of consciousness, anomalous healing, UAP, and related subjects. Publishes the Journal of Scientific Exploration and maintains an international membership of credentialed scientists and scholars.",
+    "website": "https://www.scientificexploration.org",
+    "founded": "1982",
+    "notes": "Publishes Journal of Scientific Exploration"
+  },
+  {
+    "name": "Scole Experimental Group",
+    "category": "Survival Research Organizations",
+    "description": "An informal British physical mediumship circle active from 1993 to 1998 in Scole, Norfolk, that produced phenomena investigated by researchers from the Society for Psychical Research including Montague Keen, Arthur Ellison, and David Fontana. The Scole Report (1999) documented alleged physical manifestations including light phenomena, apparent apports, and anomalous film exposures under conditions designed to exclude fraud.",
+    "website": null,
+    "founded": "1993",
+    "notes": "Active 1993–1998; investigated by SPR; findings published in Proceedings of the SPR (1999)"
+  },
+  {
+    "name": "Afterlife Research Centre",
+    "category": "Survival Research Organizations",
+    "description": "A UK-based educational and research body dedicated to the investigation of evidence for survival of consciousness after death, including evidential mediumship, instrumental transcommunication (ITC), and historical case material. The Centre maintains an online database of survival-related research and hosts public lectures and workshops.",
+    "website": "https://www.afterliferesearch.co.uk",
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "International Association for the Study of Dreams (IASD)",
+    "category": "Altered States & Consciousness Research",
+    "description": "A multidisciplinary nonprofit organisation founded in 1983 to promote scientific research on dreams and dreaming, including anomalous dream phenomena such as precognitive dreams, dream telepathy, and lucid dreaming. Publishes the peer-reviewed journal Dreaming and hosts an annual conference.",
+    "website": "https://www.asdreams.org",
+    "founded": "1983",
+    "notes": null
+  },
+  {
+    "name": "Lucidity Institute",
+    "category": "Altered States & Consciousness Research",
+    "description": "Research organisation founded by Stanford psychophysiologist Stephen LaBerge in 1987 to advance research on lucid dreaming — the state in which the dreamer is aware they are dreaming — and to explore its applications. LaBerge developed the MILD and WILD induction techniques and the NovaDreamer biofeedback device, and conducted the first polysomnographically verified lucid dream experiments at Stanford Sleep Research Center.",
+    "website": "https://www.lucidity.com",
+    "founded": "1987",
+    "notes": "Founded by Stephen LaBerge, Stanford University"
+  },
+  {
+    "name": "Center for Consciousness Studies, University of Arizona",
+    "category": "Altered States & Consciousness Research",
+    "description": "An interdisciplinary research centre at the University of Arizona co-founded in 1994 by philosopher David Chalmers and anaesthesiologist Stuart Hameroff. The centre hosts the biennial Toward a Science of Consciousness conference series, one of the largest international gatherings on consciousness research, and supports work bridging neuroscience, philosophy, physics, and anomalous experience.",
+    "website": "https://consciousness.arizona.edu",
+    "founded": "1994",
+    "notes": "Founded by David Chalmers and Stuart Hameroff"
+  },
+  {
+    "name": "Multidisciplinary Association for Psychedelic Studies (MAPS)",
+    "category": "Altered States & Consciousness Research",
+    "description": "A nonprofit research and educational organisation founded by Rick Doblin in 1986 to develop medical, legal, and cultural contexts for people to benefit from psychedelics and other methods of inducing non-ordinary states. MAPS has conducted FDA-approved clinical trials of MDMA-assisted therapy for PTSD and psilocybin research, and funds investigation of psychedelic-induced anomalous experiences including mystical states, ego dissolution, and experiential phenomena overlapping with OBE and NDE phenomenology.",
+    "website": "https://maps.org",
+    "founded": "1986",
+    "notes": "Founded by Rick Doblin"
+  },
+  {
+    "name": "Grof Transpersonal Training",
+    "category": "Altered States & Consciousness Research",
+    "description": "Educational organisation founded by psychiatrist Stanislav Grof and Christina Grof to certify practitioners in Holotropic Breathwork, a technique developed by Grof to induce non-ordinary states of consciousness through controlled hyperventilation and evocative music. Grof's extensive clinical documentation of holotropic sessions — spanning thousands of subjects over five decades — forms one of the largest systematic datasets on anomalous consciousness states, including perinatal experiences, transpersonal phenomena, apparent past-life recall, and OBE-type episodes.",
+    "website": "https://www.holotropic.com",
+    "founded": "1988",
+    "notes": "Founded by Stanislav Grof and Christina Grof"
+  },
+  {
+    "name": "International Academy of Consciousness (IAC)",
+    "category": "Altered States & Consciousness Research",
+    "description": "A nonprofit research and educational organisation founded to investigate and teach methodologies for inducing and studying out-of-body experiences (OBEs) and related projections of consciousness. Rooted in the work of Brazilian researcher Waldo Vieira and the tradition of conscientiology, the IAC operates research centres in Europe, the Americas, and Australia, and publishes the Journal of Conscientiology.",
+    "website": "https://www.iacworld.org",
+    "founded": "2000",
+    "notes": "Based in the tradition of conscientiology; founded by Waldo Vieira"
+  },
+  {
+    "name": "Center for the Study of Extraterrestrial Intelligence (CSETI)",
+    "category": "Non-Human Intelligence Research",
+    "description": "Organisation founded in 1990 by physician Steven Greer to make contact with non-human intelligences through structured protocols called CE-5 (Close Encounters of the Fifth Kind), involving meditative group practices and light/audio signalling. CSETI is the organisational basis of the Disclosure Project (2001), which gathered testimony from over 500 military, government, and intelligence witnesses to UAP and alleged NHI contact.",
+    "website": "https://www.cseti.org",
+    "founded": "1990",
+    "notes": "Founded by Dr. Steven Greer; parent of the Disclosure Project"
+  },
+  {
+    "name": "The Disclosure Project",
+    "category": "Non-Human Intelligence Research",
+    "description": "A research initiative founded by Steven Greer in 1993 that collected and presented testimony from over 500 military, government, and intelligence community witnesses regarding alleged UAP phenomena, extraterrestrial contact, and suppressed technology. A National Press Club briefing in Washington D.C. in May 2001 broadcast this testimony live worldwide. The witness archive remains one of the largest collections of testimonial evidence from credentialed insiders on the UAP/NHI subject.",
+    "website": "https://www.disclosureproject.org",
+    "founded": "1993",
+    "notes": "National Press Club briefing held May 2001"
+  },
+  {
+    "name": "Exopolitics Institute",
+    "category": "Non-Human Intelligence Research",
+    "description": "A nonprofit educational organisation founded by Michael Salla in 2005 to promote the study of political, governmental, and societal implications of alleged extraterrestrial contact with Earth. The Institute offers certification courses and publishes academic analyses of government UAP programmes, whistleblower testimony, and diplomatic frameworks for contact scenarios.",
+    "website": "https://www.exopoliticsinstitute.org",
+    "founded": "2005",
+    "notes": "Founded by Michael Salla"
+  },
+  {
+    "name": "To The Stars Academy of Arts & Science (TTSA)",
+    "category": "Non-Human Intelligence Research",
+    "description": "A public benefit corporation co-founded in 2017 by Tom DeLonge, Luis Elizondo, Christopher Mellon, Hal Puthoff, and Jim Semivan to research UAP and NHI contact. TTSA was instrumental in the December 2017 New York Times disclosure of AATIP and the public release of three officially acknowledged Navy UAP videos (FLIR1/Nimitz, GIMBAL, GOFAST). The organisation subsequently partnered with the U.S. Army to study alleged metamaterials with anomalous properties.",
+    "website": "https://ttsa.net",
+    "founded": "2017",
+    "notes": "Co-founded by Tom DeLonge; instrumental in the 2017 NYT UAP disclosure"
+  },
+  {
+    "name": "Sol Foundation",
+    "category": "Non-Human Intelligence Research",
+    "description": "A research and policy institute founded in 2023 by Stanford immunologist Garry Nolan and anthropologist Peter Skafish to develop evidence-based frameworks for understanding UAP and NHI contact and to support scientific research and government policy on these subjects. The foundation held its inaugural symposium at Stanford University in November 2023, focusing on the scientific, societal, and ontological implications of confirmed NHI contact.",
+    "website": "https://www.thesolfoundation.org",
+    "founded": "2023",
+    "notes": "Founded by Garry Nolan and Peter Skafish; Stanford University"
+  },
+  {
+    "name": "Contact in the Desert",
+    "category": "Non-Human Intelligence Research",
+    "description": "An annual conference and experiential event held in California since 2012 gathering researchers, experiencers, and practitioners focused on extraterrestrial contact, UAP phenomena, ancient civilisations, and NHI typologies. One of the largest public-facing gatherings on NHI contact subjects, the event features presentations from researchers, military veterans, and experiencers across a wide range of NHI frameworks.",
+    "website": "https://contactinthedesert.com",
+    "founded": "2012",
+    "notes": null
+  },
+  {
+    "name": "Starborn Support (Experiencer Support Association)",
+    "category": "Non-Human Intelligence Research",
+    "description": "A support and research network founded by Starborn Support (also known as the Experiencer Support Association) dedicated to assisting individuals who report encounters with non-human intelligences, including alleged abduction and contact experiences. The organisation offers peer support, research participation opportunities, and connections with clinical professionals experienced in anomalous trauma.",
+    "website": null,
+    "founded": null,
+    "notes": null
+  },
+  {
+    "name": "Bigfoot Field Researchers Organization (BFRO)",
+    "category": "Cryptozoology Organizations",
+    "description": "The largest and most active organisation dedicated to investigating alleged Sasquatch/Bigfoot sightings across North America. Founded by Matt Moneymaker in 1995, the BFRO maintains the most comprehensive publicly accessible database of Bigfoot encounter reports, employing a classification system modelled on the Close Encounter framework. The BFRO conducts organised field expeditions and was the subject of the Animal Planet television series Finding Bigfoot.",
+    "website": "https://www.bfro.net",
+    "founded": "1995",
+    "notes": "Founded by Matt Moneymaker"
+  },
+  {
+    "name": "International Society of Cryptozoology (ISC)",
+    "category": "Cryptozoology Organizations",
+    "description": "The first professional scientific organisation dedicated to cryptozoology, founded in 1982 by zoologist Bernard Heuvelmans and biologist J. Richard Greenwell at the Smithsonian Institution, Washington D.C. The ISC published the peer-reviewed journal Cryptozoology and represented an attempt to establish the field within mainstream zoological science. The society was dissolved in 2004 following financial difficulties.",
+    "website": null,
+    "founded": "1982",
+    "notes": "Dissolved 2004; founded by Bernard Heuvelmans and J. Richard Greenwell at the Smithsonian Institution"
+  },
+  {
+    "name": "Centre for Fortean Zoology (CFZ)",
+    "category": "Cryptozoology Organizations",
+    "description": "A UK-based nonprofit organisation founded in 1992 by Jonathan Downes dedicated to investigating unknown and out-of-place animal species worldwide. The CFZ conducts international expeditions, publishes books and the annual CFZ Yearbook, and maintains one of the most extensive archives of cryptid-related materials outside North America. It applies a broadly zoological framework while encompassing a wide range of cryptid categories from large hominids to lake creatures.",
+    "website": "https://www.cfz.org.uk",
+    "founded": "1992",
+    "notes": "Founded by Jonathan Downes"
+  },
+  {
+    "name": "North American Wood Ape Conservancy (NAWAC)",
+    "category": "Cryptozoology Organizations",
+    "description": "A nonprofit scientific research organisation founded in 1999 (as the Texas Bigfoot Research Center; rebranded 2011) focused on demonstrating the existence of the North American Wood Ape (Sasquatch) through rigorous field-based methodology. NAWAC published the landmark Operation Persistence report documenting five years (2012–2015) of intensive instrumented field investigation at a study site in Oklahoma, including thermal imaging, night vision, acoustic monitoring, and extensive eyewitness documentation — one of the most sustained and methodologically detailed field studies of any alleged primate cryptid.",
+    "website": "https://woodape.org",
+    "founded": "1999",
+    "notes": "Formerly the Texas Bigfoot Research Center"
+  },
+  {
+    "name": "International Cryptozoology Museum",
+    "category": "Cryptozoology Organizations",
+    "description": "The world's only museum dedicated exclusively to cryptozoology, founded by cryptozoologist Loren Coleman in Portland, Maine in 2003. The museum houses artefacts, casts, models, and archival materials relating to cryptid investigations worldwide, including original hair and footprint samples from alleged Bigfoot and Yeti encounters, and serves as a public education and research resource.",
+    "website": "https://www.cryptozoologymuseum.com",
+    "founded": "2003",
+    "notes": "Founded by Loren Coleman; Portland, Maine"
+  },
+  {
+    "name": "Loch Ness Investigation Bureau (LNIB)",
+    "category": "Cryptozoology Organizations",
+    "description": "A voluntary surveillance and investigation organisation active from 1962 to 1972 that conducted the most sustained systematic surface watch of Loch Ness, deploying volunteers on a continuous daylight watch using film cameras and binoculars. At its peak the Bureau mobilised over 1,000 volunteers per year. Key figures included David James MP and Tim Dinsdale. The Bureau's photographic evidence was analysed by JARIC (the Joint Air Reconnaissance Intelligence Centre) in 1966 and assessed as showing a large animate object of significant size.",
+    "website": null,
+    "founded": "1962",
+    "notes": "Active 1962–1972; JARIC photographic analysis 1966"
+  },
+  {
+    "name": "British Columbia Scientific Cryptozoology Club (BCSCC)",
+    "category": "Cryptozoology Organizations",
+    "description": "A Canadian organisation founded in 1989 dedicated to the scientific investigation of cryptids, particularly Sasquatch, within British Columbia and the broader Pacific Northwest. The BCSCC has produced investigative monographs on Sasquatch footprint morphology and maintains a regional encounter database.",
+    "website": null,
+    "founded": "1989",
+    "notes": null
+  },
+  {
+    "name": "Gulf Coast Bigfoot Research Organization (GCBRO)",
+    "category": "Cryptozoology Organizations",
+    "description": "A field investigation organisation established in 1997 to investigate Bigfoot encounters in the Gulf Coast states of North America, an area yielding a disproportionately large number of sighting reports relative to population. The GCBRO maintains a regional case database and conducts active field expeditions in Louisiana, Texas, Oklahoma, Mississippi, and Florida.",
+    "website": "https://www.gcbro.com",
+    "founded": "1997",
+    "notes": null
+  },
+  {
+    "name": "Association for the Scientific Study of Anomalous Phenomena (ASSAP)",
+    "category": "Paranormal Research Organizations",
+    "description": "A UK-based scientific membership organisation founded in 1981 to investigate anomalous phenomena using scientific methodology. ASSAP's remit includes hauntings, apparitions, poltergeists, UAP, and related topics. It trains investigators through an accredited programme, publishes the journal Anomaly, and has investigated hundreds of cases including notable long-term haunting investigations. ASSAP maintains a cautious scientific stance, distinguishing itself from entertainment-oriented paranormal investigation.",
+    "website": "https://www.assap.ac.uk",
+    "founded": "1981",
+    "notes": null
+  },
+  {
+    "name": "Ghost Research Society (GRS)",
+    "category": "Paranormal Research Organizations",
+    "description": "One of the oldest and most respected ghost investigation organisations in the United States, founded by Dale Kaczmarek in Chicago in 1977. The GRS employs scientific instruments including electromagnetic field meters, thermal cameras, and audio recorders in investigations, maintains an extensive database of haunted location reports, and publishes Ghost Trackers Newsletter.",
+    "website": "https://www.ghostresearch.org",
+    "founded": "1977",
+    "notes": "Founded by Dale Kaczmarek"
+  },
+  {
+    "name": "Parapsychology Foundation (PF)",
+    "category": "Paranormal Research Organizations",
+    "description": "A nonprofit organisation founded in 1951 by medium and parapsychology patron Eileen J. Garrett and Frances P. Bolton to support scientific study of psychic phenomena. The Foundation has funded research grants for over 70 years, maintains an extensive research library, and has published numerous monographs and conference proceedings through Parapsychology Foundation Press. It is one of the longest continuously operating funding bodies in parapsychology.",
+    "website": "https://www.parapsychology.org",
+    "founded": "1951",
+    "notes": "Founded by Eileen J. Garrett"
+  },
+  {
+    "name": "International Society for Paranormal Research (ISPR)",
+    "category": "Paranormal Research Organizations",
+    "description": "A Los Angeles-based investigation and education organisation founded by parapsychologist Larry Montz in 1972 to investigate hauntings, poltergeists, and related phenomena using multidisciplinary teams that include licensed clinical professionals. The ISPR has conducted investigations at several high-profile sites and consults on mediation between alleged entities and property occupants.",
+    "website": null,
+    "founded": "1972",
+    "notes": "Founded by Larry Montz"
+  },
+  {
+    "name": "Spiritual Frontiers Fellowship International (SFFI)",
+    "category": "Paranormal Research Organizations",
+    "description": "An interfaith spiritual organisation founded in 1956 to explore the interface between spiritual experience and scientific inquiry, with a particular focus on survival of consciousness, mediumship, healing, and mystical states. The SFFI has historically attracted clergy and laypersons interested in evidence for survival and anomalous religious experience, bridging conventional religious communities with psychical research.",
+    "website": null,
+    "founded": "1956",
+    "notes": null
+  },
+  {
+    "name": "Fortean Society / Fortean Times",
+    "category": "Paranormal Research Organizations",
+    "description": "The Fortean Society was founded in 1931 by Tiffany Thayer to honour the work of Charles Fort, who spent decades cataloguing anomalous events ignored by mainstream science including falls of fish, unexplained lights, and spontaneous human combustion. The contemporary Fortean Times (founded 1973) is the primary ongoing publication documenting the full range of anomalous, paranormal, and fortean phenomena globally — covering ghosts, cryptids, UAP, falls from the sky, witchcraft, and related subjects with both cultural and investigative coverage.",
+    "website": "https://www.forteantimes.com",
+    "founded": "1931",
+    "notes": "Fortean Times magazine founded 1973"
+  },
+  {
+    "name": "Demonology Research (Ed & Lorraine Warren)",
+    "category": "Paranormal Research Organizations",
+    "description": "Ed Warren (1926–2006) and Lorraine Warren (1927–2019) were the most prominent demonologists in American paranormal investigation. The New England Society for Psychic Research, which they founded in 1952, investigated hundreds of alleged hauntings, demonic possession cases, and poltergeist incidents. Their case files formed the basis of the Amityville Horror (1977), The Conjuring (2013), and numerous subsequent media productions. Their Occult Museum in Monroe, Connecticut housed artefacts from investigated cases including the Annabelle doll.",
+    "website": null,
+    "founded": "1952",
+    "notes": "Ed and Lorraine Warren; New England Society for Psychic Research"
+  },
+  {
+    "name": "Project Blue Book",
+    "category": "Secret & Covert Programs (Alleged/Historical)",
+    "description": "The longest-running official U.S. Air Force UAP investigation programme, active from 1952 to 1969. Blue Book catalogued 12,618 UAP reports; 701 remained classified as unidentified upon closure. J. Allen Hynek served as the programme's civilian scientific consultant and later became critical of its debunking methodology, founding CUFOS after leaving. The programme was terminated following the University of Colorado's Condon Report (1968). All Blue Book case files were declassified in 1975 and are now digitised at the National Archives and The Black Vault.",
+    "website": null,
+    "founded": "1952",
+    "notes": "Active 1952–1969; 701 unidentified cases; succeeded Sign and Grudge; preceded AATIP"
+  },
+  {
+    "name": "Project Sign / Project Grudge",
+    "category": "Secret & Covert Programs (Alleged/Historical)",
+    "description": "The first two official U.S. Air Force programmes to investigate UAP. Project Sign (1947–1949) produced the classified Estimate of the Situation, which reportedly concluded that some UAP were extraterrestrial vehicles; the report was rejected and allegedly destroyed by General Hoyt Vandenberg. Project Grudge (1949–1952) succeeded Sign with an explicit mandate to debunk UAP reports and reduce public interest. Both programmes preceded the better-known Project Blue Book.",
+    "website": null,
+    "founded": "1947",
+    "notes": "Project Sign 1947–1949; Project Grudge 1949–1952; Estimate of the Situation (1948) reportedly destroyed"
+  },
+  {
+    "name": "Majestic 12 (MJ-12)",
+    "category": "Secret & Covert Programs (Alleged/Historical)",
+    "description": "An alleged top-secret U.S. government committee purportedly established by President Truman in September 1947 to manage recovery and investigation of extraterrestrial craft and biological materials following the Roswell incident. Documents purportedly from MJ-12 surfaced in 1984 and were provided to ufologist Jaime Shandera. The FBI and AFOSI investigated and concluded the documents were fraudulent. No confirmed official documentation has emerged, but analogous oversight structures have been alleged by government whistleblowers in Congressional testimony (2023) and by former DIA official David Grusch.",
+    "website": null,
+    "founded": "1947",
+    "notes": "Alleged; documents assessed as fraudulent by FBI; analogous structures alleged in 2023 Congressional testimony"
+  },
+  {
+    "name": "Advanced Aerospace Weapon System Applications Program (AAWSAP)",
+    "category": "Secret & Covert Programs (Alleged/Historical)",
+    "description": "A classified Defense Intelligence Agency programme active from 2007 to 2012, distinct from but closely related to AATIP. AAWSAP, administered through the DIA's Directorate for Intelligence Plans and Harnessing, contracted BAASS to produce 38 technical reports on advanced aerospace topics including UAP propulsion, material science, human biological effects, and related anomalous phenomena including poltergeist-type activity at Skinwalker Ranch. Details were substantially disclosed by investigative journalists George Knapp and James Carrion and later partially confirmed by DIA FOIA responses.",
+    "website": null,
+    "founded": "2007",
+    "notes": "Distinct from AATIP; 38 BAASS technical reports produced; Skinwalker Ranch investigations included"
+  },
+  {
+    "name": "The Aviary",
+    "category": "Secret & Covert Programs (Alleged/Historical)",
+    "description": "An alleged informal network of U.S. intelligence community officials and defence scientists who, according to documents and testimony from the 1980s and 1990s, took an active interest in UAP phenomena while using bird-based codenames — including Falcon, Condor, Bluejay, Pelican, and others. Members allegedly included figures from the CIA, DIA, and AFOSI. The network's activities are linked to information operations targeting civilian UAP researchers, most notably in the Paul Bennewitz affair, in which AFOSI agent Richard Doty fed false information to researcher Bennewitz, contributing to his psychological breakdown.",
+    "website": null,
+    "founded": null,
+    "notes": "Alleged informal network; bird codenames disputed; linked to Bennewitz disinformation affair"
+  },
+  {
+    "name": "Project Condign (United Kingdom)",
+    "category": "Secret & Covert Programs (Alleged/Historical)",
+    "description": "A classified Ministry of Defence programme active from 1997 to 2000, commissioned by DI55 (the Defence Intelligence Staff directorate responsible for UAP), which produced the report Unidentified Aerial Phenomena in the UK Air Defence Region (4 volumes, 2000). Declassified and released under FOIA in 2006, the report concluded that UAP represent a real phenomenon but are likely attributable to a previously unrecognised natural plasma phenomenon with potential military significance. Its conclusions influenced subsequent academic and governmental UAP discussions.",
+    "website": null,
+    "founded": "1997",
+    "notes": "Declassified 2006; produced by UK Defence Intelligence Staff (DI55)"
+  },
+  {
+    "name": "Collins Elite (Alleged)",
+    "category": "Secret & Covert Programs (Alleged/Historical)",
+    "description": "An alleged informal working group within the U.S. government, described by journalist Nick Redfern in his book Final Events (2010), purportedly composed of conservative Christian officials in the defence and intelligence community who concluded during the 1990s that the UAP/NHI phenomenon has demonic rather than extraterrestrial origins. The group allegedly advocated for a suppression strategy based on this theological interpretation and opposed UAP disclosure on spiritual grounds. No official documentation confirming the group's existence has been released.",
+    "website": null,
+    "founded": null,
+    "notes": "Alleged; described by Nick Redfern in Final Events (2010)"
+  },
+  {
+    "name": "Invisible College",
+    "category": "Secret & Covert Programs (Alleged/Historical)",
+    "description": "A term coined by astrophysicist and UAP researcher Jacques Vallée to describe an informal, decentralised international network of scientists, engineers, and intelligence professionals who privately investigated UAP phenomena while publicly maintaining silence, operating during the 1960s–1980s. Members allegedly included J. Allen Hynek, Vallée himself, and researchers from government and academic contexts who were unable to pursue UAP research openly due to professional stigma or classification constraints. Vallée described the network in his 1975 book The Invisible College.",
+    "website": null,
+    "founded": null,
+    "notes": "Term coined by Jacques Vallée; described in The Invisible College (1975)"
+  },
+  {
+    "name": "UK Ministry of Defence UFO Desk",
+    "category": "Secret & Covert Programs (Alleged/Historical)",
+    "description": "An administrative unit within the British Ministry of Defence, known internally as Secretariat (Air Staff) 2a and later DAS, that handled UAP reports from the public and military from approximately 1950 until its closure in 2009. Staffed for most of its existence by a single officer, the desk maintained files on thousands of UAP reports and was periodically tasked with assessments including the Project Condign study. Its files were released to the National Archives between 2008 and 2013, comprising approximately 52,000 pages. Former desk officer Nick Pope made the unit publicly known.",
+    "website": null,
+    "founded": "1950",
+    "notes": "Active approximately 1950–2009; files released to National Archives 2008–2013; Nick Pope served 1991–1994"
+  },
+  {
+    "name": "Centro Italiano Studi Ufologici (CISU)",
+    "category": "UAP Scientific & Analytical Organizations",
+    "description": "Italy's foremost UAP research organisation, founded in 1985 through the merger of several Italian UFO groups. CISU maintains the most comprehensive database of Italian UAP cases (over 17,000 entries) and publishes the peer-reviewed journal UFO — Rivista di Informazione Ufologica. CISU applies a rigorous case classification system and has conducted detailed analysis of several significant Italian military and civilian encounters.",
+    "website": "https://www.cisu.org",
+    "founded": "1985",
+    "notes": null
+  },
+  {
+    "name": "SEPRA / SIGMA2 (France)",
+    "category": "UAP Government Programs (International)",
+    "description": "SEPRA (Service d'Expertise des Phénomènes de Rentrées Atmosphériques) was a predecessor body to GEIPAN within CNES, active from 1977 to 2004. SIGMA2 is the current CNES working group responsible for technical analysis of UAP cases in collaboration with GEIPAN, applying optical, radar, infrared, and physical analysis to individual encounters. Together these bodies represent the most continuous national scientific UAP analysis programme in the world.",
+    "website": null,
+    "founded": "1977",
+    "notes": "SEPRA operated 1977–2004; succeeded by SIGMA2 working group under CNES"
+  },
+  {
+    "name": "New England Society for Psychic Research (NESPR)",
+    "category": "Paranormal Research Organizations",
+    "description": "Founded in 1952 by Ed and Lorraine Warren, the NESPR investigated alleged hauntings, demonic possessions, and poltergeist cases across the United States and internationally. The organisation's case files became the basis for numerous books and films including The Haunting in Connecticut, The Amityville Horror investigations, and the Annabelle case. The Warrens maintained the Occult Museum adjacent to their Monroe, Connecticut home as an archive and educational resource.",
+    "website": null,
+    "founded": "1952",
+    "notes": "Founded by Ed and Lorraine Warren; see also Demonology Research entry"
   }
 ]

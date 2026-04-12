@@ -113,6 +113,17 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "paranormal_haunted.html")] pub struct ParanormalHauntedTemplate;
 #[derive(Template)] #[template(path = "paranormal_exorcism.html")] pub struct ParanormalExorcismTemplate;
 
+// Conspiracy Theory hub + sub-pages
+#[derive(Template)] #[template(path = "conspiracy.html")] pub struct ConspiracyTemplate;
+#[derive(Template)] #[template(path = "conspiracy_phenomenon.html")] pub struct ConspiracyPhenomenonTemplate;
+#[derive(Template)] #[template(path = "conspiracy_political.html")] pub struct ConspiracyPoliticalTemplate;
+#[derive(Template)] #[template(path = "conspiracy_war.html")] pub struct ConspiracyWarTemplate;
+#[derive(Template)] #[template(path = "conspiracy_religious.html")] pub struct ConspiracyReligiousTemplate;
+#[derive(Template)] #[template(path = "conspiracy_cultural.html")] pub struct ConspiracyCulturalTemplate;
+#[derive(Template)] #[template(path = "conspiracy_technological.html")] pub struct ConspiracyTechnologicalTemplate;
+#[derive(Template)] #[template(path = "conspiracy_economic.html")] pub struct ConspiracyEconomicTemplate;
+#[derive(Template)] #[template(path = "conspiracy_health.html")] pub struct ConspiracyHealthTemplate;
+
 // NHI Species & Race Index
 #[derive(Template)] #[template(path = "nhi_races.html")] pub struct NhiRacesTemplate;
 #[derive(Template)] #[template(path = "nhi_race_greys.html")] pub struct NhiRaceGreysTemplate;

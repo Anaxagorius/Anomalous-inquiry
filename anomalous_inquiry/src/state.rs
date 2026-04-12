@@ -1,8 +1,4 @@
-use std::{
-    fs,
-    path::Path,
-    sync::Arc,
-};
+use std::sync::Arc;
 use tokio::sync::RwLock;
 use serde::{Deserialize, Serialize};
 use uuid::Uuid;
@@ -104,19 +100,13 @@ impl AppState {
 }
 
 fn load_organizations() -> Vec<Organization> {
-    let path = Path::new("content/organizations.json");
-    if !path.exists() { return Vec::new(); }
-    fs::read_to_string(path).ok()
-        .and_then(|s| serde_json::from_str(&s).ok())
-        .unwrap_or_default()
+    let data = include_str!("../content/organizations.json");
+    serde_json::from_str(data).unwrap_or_default()
 }
 
 fn load_timeline() -> Vec<TimelineEvent> {
-    let path = Path::new("content/timeline.json");
-    if !path.exists() { return Vec::new(); }
-    fs::read_to_string(path).ok()
-        .and_then(|s| serde_json::from_str(&s).ok())
-        .unwrap_or_default()
+    let data = include_str!("../content/timeline.json");
+    serde_json::from_str(data).unwrap_or_default()
 }
 
 async fn load_journal_entries() -> Vec<JournalEntry> {

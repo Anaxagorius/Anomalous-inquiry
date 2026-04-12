@@ -45,6 +45,7 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 
 // Survival sub-pages
 #[derive(Template)] #[template(path = "nde.html")] pub struct NdeTemplate;
+#[derive(Template)] #[template(path = "sde.html")] pub struct SdeTemplate;
 #[derive(Template)] #[template(path = "mind_brain.html")] pub struct MindBrainTemplate;
 
 // Altered states sub-pages

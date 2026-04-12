@@ -26,6 +26,7 @@ A neutral, documentary-style research platform for the systematic investigation 
 
 ### Survival Research
 - Near-death experiences (NDE)
+- Shared death experiences (SDE) — deathbed visions, after-death communications, peak-in-Darien cases
 - Mind-brain independence
 
 ### Altered States & Exceptional Experiences

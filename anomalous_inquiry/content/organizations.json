@@ -458,7 +458,7 @@
   {
     "name": "Starborn Support (Experiencer Support Association)",
     "category": "Non-Human Intelligence Research",
-    "description": "A support and research network founded by Starborn Support (also known as the Experiencer Support Association) dedicated to assisting individuals who report encounters with non-human intelligences, including alleged abduction and contact experiences. The organisation offers peer support, research participation opportunities, and connections with clinical professionals experienced in anomalous trauma.",
+    "description": "A support and research network also known as the Experiencer Support Association, dedicated to assisting individuals who report encounters with non-human intelligences, including alleged abduction and contact experiences. The organisation offers peer support, research participation opportunities, and connections with clinical professionals experienced in anomalous trauma.",
     "website": null,
     "founded": null,
     "notes": null
@@ -576,9 +576,9 @@
     "notes": "Fortean Times magazine founded 1973"
   },
   {
-    "name": "Demonology Research (Ed & Lorraine Warren)",
+    "name": "New England Society for Psychic Research (NESPR) / Warren Demonology",
     "category": "Paranormal Research Organizations",
-    "description": "Ed Warren (1926–2006) and Lorraine Warren (1927–2019) were the most prominent demonologists in American paranormal investigation. The New England Society for Psychic Research, which they founded in 1952, investigated hundreds of alleged hauntings, demonic possession cases, and poltergeist incidents. Their case files formed the basis of the Amityville Horror (1977), The Conjuring (2013), and numerous subsequent media productions. Their Occult Museum in Monroe, Connecticut housed artefacts from investigated cases including the Annabelle doll.",
+    "description": "Founded in 1952 by Ed Warren (1926–2006) and Lorraine Warren (1927–2019), the NESPR is the most prominent demonology and paranormal investigation organisation in American history. The Warrens investigated hundreds of alleged hauntings, demonic possession cases, and poltergeist incidents including Amityville (1975–1976), the Enfield Poltergeist (1977), and the Snedeker house in Connecticut. Their Occult Museum in Monroe, Connecticut housed artefacts from investigated cases including the Annabelle doll. Their case files formed the basis of The Amityville Horror (1977), The Conjuring (2013), and numerous subsequent media productions.",
     "website": null,
     "founded": "1952",
     "notes": "Ed and Lorraine Warren; New England Society for Psychic Research"
@@ -670,13 +670,5 @@
     "website": null,
     "founded": "1977",
     "notes": "SEPRA operated 1977–2004; succeeded by SIGMA2 working group under CNES"
-  },
-  {
-    "name": "New England Society for Psychic Research (NESPR)",
-    "category": "Paranormal Research Organizations",
-    "description": "Founded in 1952 by Ed and Lorraine Warren, the NESPR investigated alleged hauntings, demonic possessions, and poltergeist cases across the United States and internationally. The organisation's case files became the basis for numerous books and films including The Haunting in Connecticut, The Amityville Horror investigations, and the Annabelle case. The Warrens maintained the Occult Museum adjacent to their Monroe, Connecticut home as an archive and educational resource.",
-    "website": null,
-    "founded": "1952",
-    "notes": "Founded by Ed and Lorraine Warren; see also Demonology Research entry"
   }
 ]

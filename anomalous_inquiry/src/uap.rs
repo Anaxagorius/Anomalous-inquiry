@@ -4,6 +4,7 @@ use crate::state::AppState;
 use crate::templates::{
     UapTemplate, NimitzTemplate, RoswellTemplate, CeArchiveTemplate,
     PhoenixLightsTemplate, RendleshamTemplate, BelgianWaveTemplate,
+    UapSovietChineseTemplate,
 };
 
 pub fn routes() -> Router<AppState> {
@@ -15,6 +16,7 @@ pub fn routes() -> Router<AppState> {
         .route("/phoenix-lights", get(phoenix_lights))
         .route("/rendlesham", get(rendlesham))
         .route("/belgian-wave", get(belgian_wave))
+        .route("/soviet-chinese-military", get(soviet_chinese_military))
 }
 
 async fn hub() -> impl IntoResponse { HtmlTemplate(UapTemplate) }
@@ -24,3 +26,4 @@ async fn ce_archive() -> impl IntoResponse { HtmlTemplate(CeArchiveTemplate) }
 async fn phoenix_lights() -> impl IntoResponse { HtmlTemplate(PhoenixLightsTemplate) }
 async fn rendlesham() -> impl IntoResponse { HtmlTemplate(RendleshamTemplate) }
 async fn belgian_wave() -> impl IntoResponse { HtmlTemplate(BelgianWaveTemplate) }
+async fn soviet_chinese_military() -> impl IntoResponse { HtmlTemplate(UapSovietChineseTemplate) }

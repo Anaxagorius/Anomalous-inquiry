@@ -44,6 +44,7 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "phoenix_lights.html")] pub struct PhoenixLightsTemplate;
 #[derive(Template)] #[template(path = "rendlesham.html")] pub struct RendleshamTemplate;
 #[derive(Template)] #[template(path = "belgian_wave.html")] pub struct BelgianWaveTemplate;
+#[derive(Template)] #[template(path = "military_encounters.html")] pub struct MilitaryEncountersTemplate;
 #[derive(Template)] #[template(path = "uap_soviet_chinese.html")] pub struct UapSovietChineseTemplate;
 
 // Survival sub-pages

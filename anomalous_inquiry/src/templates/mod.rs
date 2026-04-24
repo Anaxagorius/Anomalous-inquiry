@@ -34,6 +34,8 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "mediumship.html")] pub struct MediumshipTemplate;
 #[derive(Template)] #[template(path = "reincarnation.html")] pub struct ReincarnationTemplate;
 #[derive(Template)] #[template(path = "terminal_lucidity.html")] pub struct TerminalLucidityTemplate;
+#[derive(Template)] #[template(path = "kozyrev_mirror.html")] pub struct KozyrevMirrorTemplate;
+#[derive(Template)] #[template(path = "gateway_process.html")] pub struct GatewayProcessTemplate;
 
 // UAP sub-pages
 #[derive(Template)] #[template(path = "nimitz.html")] pub struct NimitzTemplate;

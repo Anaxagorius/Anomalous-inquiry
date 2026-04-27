@@ -23,6 +23,11 @@ use crate::templates::{
     NhiRaceAnunnakiTemplate, NhiRaceEgarotTemplate, NhiRaceSolipsiRaiTemplate,
     NhiInsectoidsTemplate, NhiInsectoidsMantidsTemplate, NhiInsectoidsInsectoidsTemplate,
     NhiInsectoidsMantoidsTemplate, NhiInsectoidsItipuriansTemplate, NhiInsectoidsKlermersTemplate,
+    NhiReptilianGeneralTemplate, NhiReptilianDraconianTemplate,
+    NhiReptilianAlphaDraconianTemplate, NhiReptilianLacertianTemplate,
+    NhiReptilianIguanoidTemplate, NhiReptilianHydraTemplate,
+    NhiReptilianSerpentBeingsTemplate, NhiReptilianNagasTemplate,
+    NhiReptilianDragonwormsTemplate,
     NhiHybridHumanGreyTemplate, NhiHybridGreyReptilianTemplate, NhiHybridAdamicEvadamicTemplate,
     NhiHybridElsElTemplate, NhiHybridZetaHumansTemplate, NhiHybridHubridsTemplate,
     NhiHybridSassaniTemplate,
@@ -61,6 +66,15 @@ pub fn routes() -> Router<AppState> {
         .route("/races/nordics", get(race_nordics))
         .route("/races/pleiadians", get(race_pleiadians))
         .route("/races/reptilians", get(race_reptilians))
+        .route("/races/reptilians/general", get(reptilian_general))
+        .route("/races/reptilians/draconians", get(reptilian_draconians))
+        .route("/races/reptilians/alpha-draconians", get(reptilian_alpha_draconians))
+        .route("/races/reptilians/lacertians", get(reptilian_lacertians))
+        .route("/races/reptilians/iguanoids", get(reptilian_iguanoids))
+        .route("/races/reptilians/hydra-reptilians", get(reptilian_hydra))
+        .route("/races/reptilians/serpent-beings", get(reptilian_serpent_beings))
+        .route("/races/reptilians/nagas", get(reptilian_nagas))
+        .route("/races/reptilians/dragonworms", get(reptilian_dragonworms))
         .route("/races/mantids", get(race_mantids))
         .route("/races/avians", get(race_avians))
         .route("/races/avians/blue-avians", get(race_avians_blue))
@@ -150,3 +164,13 @@ async fn insectoids_insectoids()  -> impl IntoResponse { HtmlTemplate(NhiInsecto
 async fn insectoids_mantoids()    -> impl IntoResponse { HtmlTemplate(NhiInsectoidsMantoidsTemplate) }
 async fn insectoids_itipurians()  -> impl IntoResponse { HtmlTemplate(NhiInsectoidsItipuriansTemplate) }
 async fn insectoids_klermers()    -> impl IntoResponse { HtmlTemplate(NhiInsectoidsKlermersTemplate) }
+
+async fn reptilian_general()          -> impl IntoResponse { HtmlTemplate(NhiReptilianGeneralTemplate) }
+async fn reptilian_draconians()       -> impl IntoResponse { HtmlTemplate(NhiReptilianDraconianTemplate) }
+async fn reptilian_alpha_draconians() -> impl IntoResponse { HtmlTemplate(NhiReptilianAlphaDraconianTemplate) }
+async fn reptilian_lacertians()       -> impl IntoResponse { HtmlTemplate(NhiReptilianLacertianTemplate) }
+async fn reptilian_iguanoids()        -> impl IntoResponse { HtmlTemplate(NhiReptilianIguanoidTemplate) }
+async fn reptilian_hydra()            -> impl IntoResponse { HtmlTemplate(NhiReptilianHydraTemplate) }
+async fn reptilian_serpent_beings()   -> impl IntoResponse { HtmlTemplate(NhiReptilianSerpentBeingsTemplate) }
+async fn reptilian_nagas()            -> impl IntoResponse { HtmlTemplate(NhiReptilianNagasTemplate) }
+async fn reptilian_dragonworms()      -> impl IntoResponse { HtmlTemplate(NhiReptilianDragonwormsTemplate) }

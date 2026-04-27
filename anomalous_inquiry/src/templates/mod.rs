@@ -153,6 +153,18 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 
 // NHI Species & Race Index
 #[derive(Template)] #[template(path = "nhi_races.html")] pub struct NhiRacesTemplate;
+
+// Reptilian sub-group pages
+#[derive(Template)] #[template(path = "nhi_reptilian_general.html")] pub struct NhiReptilianGeneralTemplate;
+#[derive(Template)] #[template(path = "nhi_reptilian_draconians.html")] pub struct NhiReptilianDraconianTemplate;
+#[derive(Template)] #[template(path = "nhi_reptilian_alpha_draconians.html")] pub struct NhiReptilianAlphaDraconianTemplate;
+#[derive(Template)] #[template(path = "nhi_reptilian_lacertians.html")] pub struct NhiReptilianLacertianTemplate;
+#[derive(Template)] #[template(path = "nhi_reptilian_iguanoids.html")] pub struct NhiReptilianIguanoidTemplate;
+#[derive(Template)] #[template(path = "nhi_reptilian_hydra.html")] pub struct NhiReptilianHydraTemplate;
+#[derive(Template)] #[template(path = "nhi_reptilian_serpent_beings.html")] pub struct NhiReptilianSerpentBeingsTemplate;
+#[derive(Template)] #[template(path = "nhi_reptilian_nagas.html")] pub struct NhiReptilianNagasTemplate;
+#[derive(Template)] #[template(path = "nhi_reptilian_dragonworms.html")] pub struct NhiReptilianDragonwormsTemplate;
+
 #[derive(Template)] #[template(path = "nhi_race_greys.html")] pub struct NhiRaceGreysTemplate;
 #[derive(Template)] #[template(path = "nhi_race_tall_whites.html")] pub struct NhiRaceTallWhitesTemplate;
 #[derive(Template)] #[template(path = "nhi_race_nordics.html")] pub struct NhiRaceNordicsTemplate;

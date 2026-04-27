@@ -25,6 +25,9 @@ use crate::templates::{
     NhiReptilianIguanoidTemplate, NhiReptilianHydraTemplate,
     NhiReptilianSerpentBeingsTemplate, NhiReptilianNagasTemplate,
     NhiReptilianDragonwormsTemplate,
+    NhiHybridHumanGreyTemplate, NhiHybridGreyReptilianTemplate, NhiHybridAdamicEvadamicTemplate,
+    NhiHybridElsElTemplate, NhiHybridZetaHumansTemplate, NhiHybridHubridsTemplate,
+    NhiHybridSassaniTemplate,
 };
 
 pub fn routes() -> Router<AppState> {
@@ -37,6 +40,13 @@ pub fn routes() -> Router<AppState> {
         .route("/orbs", get(orbs))
         .route("/artificial", get(artificial))
         .route("/hybrid", get(hybrid))
+        .route("/hybrid/human-grey", get(hybrid_human_grey))
+        .route("/hybrid/grey-reptilian", get(hybrid_grey_reptilian))
+        .route("/hybrid/adamic-evadamic", get(hybrid_adamic_evadamic))
+        .route("/hybrid/els-el", get(hybrid_els_el))
+        .route("/hybrid/zeta-humans", get(hybrid_zeta_humans))
+        .route("/hybrid/hu-brids", get(hybrid_hubrids))
+        .route("/hybrid/sassani", get(hybrid_sassani))
         .route("/ancient", get(ancient))
         .route("/consciousness", get(consciousness))
         .route("/trickster", get(trickster))
@@ -96,6 +106,13 @@ async fn plasma()           -> impl IntoResponse { HtmlTemplate(NhiPlasmaTemplat
 async fn orbs()             -> impl IntoResponse { HtmlTemplate(NhiOrbsTemplate) }
 async fn artificial()       -> impl IntoResponse { HtmlTemplate(NhiArtificialTemplate) }
 async fn hybrid()           -> impl IntoResponse { HtmlTemplate(NhiHybridTemplate) }
+async fn hybrid_human_grey()        -> impl IntoResponse { HtmlTemplate(NhiHybridHumanGreyTemplate) }
+async fn hybrid_grey_reptilian()    -> impl IntoResponse { HtmlTemplate(NhiHybridGreyReptilianTemplate) }
+async fn hybrid_adamic_evadamic()   -> impl IntoResponse { HtmlTemplate(NhiHybridAdamicEvadamicTemplate) }
+async fn hybrid_els_el()            -> impl IntoResponse { HtmlTemplate(NhiHybridElsElTemplate) }
+async fn hybrid_zeta_humans()       -> impl IntoResponse { HtmlTemplate(NhiHybridZetaHumansTemplate) }
+async fn hybrid_hubrids()           -> impl IntoResponse { HtmlTemplate(NhiHybridHubridsTemplate) }
+async fn hybrid_sassani()           -> impl IntoResponse { HtmlTemplate(NhiHybridSassaniTemplate) }
 async fn ancient()          -> impl IntoResponse { HtmlTemplate(NhiAncientTemplate) }
 async fn consciousness()    -> impl IntoResponse { HtmlTemplate(NhiConsciousnessTemplate) }
 async fn trickster()        -> impl IntoResponse { HtmlTemplate(NhiTricksterTemplate) }

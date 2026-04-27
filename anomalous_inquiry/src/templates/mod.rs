@@ -128,6 +128,15 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "conspiracy_economic.html")] pub struct ConspiracyEconomicTemplate;
 #[derive(Template)] #[template(path = "conspiracy_health.html")] pub struct ConspiracyHealthTemplate;
 
+// NHI Hybrid sub-pages
+#[derive(Template)] #[template(path = "nhi_hybrid_human_grey.html")] pub struct NhiHybridHumanGreyTemplate;
+#[derive(Template)] #[template(path = "nhi_hybrid_grey_reptilian.html")] pub struct NhiHybridGreyReptilianTemplate;
+#[derive(Template)] #[template(path = "nhi_hybrid_adamic_evadamic.html")] pub struct NhiHybridAdamicEvadamicTemplate;
+#[derive(Template)] #[template(path = "nhi_hybrid_els_el.html")] pub struct NhiHybridElsElTemplate;
+#[derive(Template)] #[template(path = "nhi_hybrid_zeta_humans.html")] pub struct NhiHybridZetaHumansTemplate;
+#[derive(Template)] #[template(path = "nhi_hybrid_hubrids.html")] pub struct NhiHybridHubridsTemplate;
+#[derive(Template)] #[template(path = "nhi_hybrid_sassani.html")] pub struct NhiHybridSassaniTemplate;
+
 // NHI Aquatic / Amphibious sub-types
 #[derive(Template)] #[template(path = "nhi_aquatic_nommo.html")] pub struct NhiAquaticNommoTemplate;
 #[derive(Template)] #[template(path = "nhi_aquatic_amphibians.html")] pub struct NhiAquaticAmphibiansTemplate;

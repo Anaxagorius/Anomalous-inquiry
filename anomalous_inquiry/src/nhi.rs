@@ -13,6 +13,8 @@ use crate::templates::{
     NhiRaceAndromedansTemplate, NhiRaceLyransTemplate, NhiRaceTauCetiansTemplate,
     NhiRaceEbensTemplate, NhiRaceUmmitesTemplate, NhiRaceShadowBeingsTemplate,
     NhiRaceAnunnakiTemplate, NhiRaceEgarotTemplate, NhiRaceSolipsiRaiTemplate,
+    NhiInsectoidsTemplate, NhiInsectoidsMantidsTemplate, NhiInsectoidsInsectoidsTemplate,
+    NhiInsectoidsMantoidsTemplate, NhiInsectoidsItipuriansTemplate, NhiInsectoidsKlermersTemplate,
 };
 
 pub fn routes() -> Router<AppState> {
@@ -50,6 +52,12 @@ pub fn routes() -> Router<AppState> {
         .route("/races/anunnaki", get(race_anunnaki))
         .route("/races/egarot", get(race_egarot))
         .route("/races/solipsi-rai", get(race_solipsi_rai))
+        .route("/insectoids", get(insectoids))
+        .route("/insectoids/mantids", get(insectoids_mantids))
+        .route("/insectoids/insectoids", get(insectoids_insectoids))
+        .route("/insectoids/mantoids", get(insectoids_mantoids))
+        .route("/insectoids/itipurians", get(insectoids_itipurians))
+        .route("/insectoids/klermers", get(insectoids_klermers))
 }
 
 async fn hub()              -> impl IntoResponse { HtmlTemplate(NhiTemplate) }
@@ -85,3 +93,9 @@ async fn race_shadow_beings() -> impl IntoResponse { HtmlTemplate(NhiRaceShadowB
 async fn race_anunnaki()    -> impl IntoResponse { HtmlTemplate(NhiRaceAnunnakiTemplate) }
 async fn race_egarot()      -> impl IntoResponse { HtmlTemplate(NhiRaceEgarotTemplate) }
 async fn race_solipsi_rai() -> impl IntoResponse { HtmlTemplate(NhiRaceSolipsiRaiTemplate) }
+async fn insectoids()             -> impl IntoResponse { HtmlTemplate(NhiInsectoidsTemplate) }
+async fn insectoids_mantids()     -> impl IntoResponse { HtmlTemplate(NhiInsectoidsMantidsTemplate) }
+async fn insectoids_insectoids()  -> impl IntoResponse { HtmlTemplate(NhiInsectoidsInsectoidsTemplate) }
+async fn insectoids_mantoids()    -> impl IntoResponse { HtmlTemplate(NhiInsectoidsMantoidsTemplate) }
+async fn insectoids_itipurians()  -> impl IntoResponse { HtmlTemplate(NhiInsectoidsItipuriansTemplate) }
+async fn insectoids_klermers()    -> impl IntoResponse { HtmlTemplate(NhiInsectoidsKlermersTemplate) }

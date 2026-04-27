@@ -5,7 +5,10 @@ use crate::templates::{
     NhiTemplate, NhiEtTemplate, NhiUltraTerrestrialTemplate, NhiInterdimensionalTemplate,
     NhiPlasmaTemplate, NhiOrbsTemplate, NhiArtificialTemplate, NhiHybridTemplate,
     NhiAncientTemplate, NhiConsciousnessTemplate, NhiTricksterTemplate,
-    NhiAquaticTemplate, NhiOtherTemplate, NhiDocumentationTemplate,
+    NhiAquaticTemplate,
+    NhiAquaticNommoTemplate, NhiAquaticAmphibiansTemplate,
+    NhiAquaticCetaceansTemplate, NhiAquaticHydraTemplate,
+    NhiOtherTemplate, NhiDocumentationTemplate,
     NhiRacesTemplate,
     NhiRaceGreysTemplate, NhiRaceTallWhitesTemplate, NhiRaceNordicsTemplate,
     NhiRacePleiadiansTemplate,
@@ -36,6 +39,10 @@ pub fn routes() -> Router<AppState> {
         .route("/consciousness", get(consciousness))
         .route("/trickster", get(trickster))
         .route("/aquatic", get(aquatic))
+        .route("/aquatic/nommo", get(aquatic_nommo))
+        .route("/aquatic/amphibians", get(aquatic_amphibians))
+        .route("/aquatic/cetaceans", get(aquatic_cetaceans))
+        .route("/aquatic/hydra", get(aquatic_hydra))
         .route("/other", get(other))
         .route("/documentation", get(documentation))
         .route("/races", get(races))
@@ -86,6 +93,10 @@ async fn ancient()          -> impl IntoResponse { HtmlTemplate(NhiAncientTempla
 async fn consciousness()    -> impl IntoResponse { HtmlTemplate(NhiConsciousnessTemplate) }
 async fn trickster()        -> impl IntoResponse { HtmlTemplate(NhiTricksterTemplate) }
 async fn aquatic()          -> impl IntoResponse { HtmlTemplate(NhiAquaticTemplate) }
+async fn aquatic_nommo()    -> impl IntoResponse { HtmlTemplate(NhiAquaticNommoTemplate) }
+async fn aquatic_amphibians() -> impl IntoResponse { HtmlTemplate(NhiAquaticAmphibiansTemplate) }
+async fn aquatic_cetaceans() -> impl IntoResponse { HtmlTemplate(NhiAquaticCetaceansTemplate) }
+async fn aquatic_hydra()    -> impl IntoResponse { HtmlTemplate(NhiAquaticHydraTemplate) }
 async fn other()            -> impl IntoResponse { HtmlTemplate(NhiOtherTemplate) }
 async fn documentation()    -> impl IntoResponse { HtmlTemplate(NhiDocumentationTemplate) }
 async fn races()            -> impl IntoResponse { HtmlTemplate(NhiRacesTemplate) }

@@ -128,6 +128,12 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "conspiracy_economic.html")] pub struct ConspiracyEconomicTemplate;
 #[derive(Template)] #[template(path = "conspiracy_health.html")] pub struct ConspiracyHealthTemplate;
 
+// NHI Aquatic / Amphibious sub-types
+#[derive(Template)] #[template(path = "nhi_aquatic_nommo.html")] pub struct NhiAquaticNommoTemplate;
+#[derive(Template)] #[template(path = "nhi_aquatic_amphibians.html")] pub struct NhiAquaticAmphibiansTemplate;
+#[derive(Template)] #[template(path = "nhi_aquatic_cetaceans.html")] pub struct NhiAquaticCetaceansTemplate;
+#[derive(Template)] #[template(path = "nhi_aquatic_hydra.html")] pub struct NhiAquaticHydraTemplate;
+
 // NHI Insectoid / Arthropod section
 #[derive(Template)] #[template(path = "nhi_insectoids.html")] pub struct NhiInsectoidsTemplate;
 #[derive(Template)] #[template(path = "nhi_insectoids_mantids.html")] pub struct NhiInsectoidsMantidsTemplate;

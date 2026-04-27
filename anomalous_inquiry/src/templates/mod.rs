@@ -128,6 +128,14 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "conspiracy_economic.html")] pub struct ConspiracyEconomicTemplate;
 #[derive(Template)] #[template(path = "conspiracy_health.html")] pub struct ConspiracyHealthTemplate;
 
+// NHI Insectoid / Arthropod section
+#[derive(Template)] #[template(path = "nhi_insectoids.html")] pub struct NhiInsectoidsTemplate;
+#[derive(Template)] #[template(path = "nhi_insectoids_mantids.html")] pub struct NhiInsectoidsMantidsTemplate;
+#[derive(Template)] #[template(path = "nhi_insectoids_insectoids.html")] pub struct NhiInsectoidsInsectoidsTemplate;
+#[derive(Template)] #[template(path = "nhi_insectoids_mantoids.html")] pub struct NhiInsectoidsMantoidsTemplate;
+#[derive(Template)] #[template(path = "nhi_insectoids_itipurians.html")] pub struct NhiInsectoidsItipuriansTemplate;
+#[derive(Template)] #[template(path = "nhi_insectoids_klermers.html")] pub struct NhiInsectoidsKlermersTemplate;
+
 // NHI Species & Race Index
 #[derive(Template)] #[template(path = "nhi_races.html")] pub struct NhiRacesTemplate;
 
@@ -145,15 +153,24 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "nhi_race_greys.html")] pub struct NhiRaceGreysTemplate;
 #[derive(Template)] #[template(path = "nhi_race_tall_whites.html")] pub struct NhiRaceTallWhitesTemplate;
 #[derive(Template)] #[template(path = "nhi_race_nordics.html")] pub struct NhiRaceNordicsTemplate;
+#[derive(Template)] #[template(path = "nhi_race_pleiadians.html")] pub struct NhiRacePleiadiansTemplate;
 #[derive(Template)] #[template(path = "nhi_race_reptilians.html")] pub struct NhiRaceReptiliansTemplate;
 #[derive(Template)] #[template(path = "nhi_race_mantids.html")] pub struct NhiRaceMantidsTemplate;
 #[derive(Template)] #[template(path = "nhi_race_avians.html")] pub struct NhiRaceAviansTemplate;
+#[derive(Template)] #[template(path = "nhi_race_avians_blue.html")] pub struct NhiRaceAviansBlueTemplate;
+#[derive(Template)] #[template(path = "nhi_race_avians_humanoid.html")] pub struct NhiRaceAviansHumanoidTemplate;
+#[derive(Template)] #[template(path = "nhi_race_avians_garuda.html")] pub struct NhiRaceAviansGarudaTemplate;
 #[derive(Template)] #[template(path = "nhi_race_maitre.html")] pub struct NhiRaceMaitreTemplate;
 #[derive(Template)] #[template(path = "nhi_race_sirians.html")] pub struct NhiRaceSiriansTemplate;
 #[derive(Template)] #[template(path = "nhi_race_arcturians.html")] pub struct NhiRaceArcturiansTemplate;
 #[derive(Template)] #[template(path = "nhi_race_andromedans.html")] pub struct NhiRaceAndromedansTemplate;
 #[derive(Template)] #[template(path = "nhi_race_lyrans.html")] pub struct NhiRaceLyransTemplate;
+#[derive(Template)] #[template(path = "nhi_race_altairians.html")] pub struct NhiRaceAltairiansTemplate;
+#[derive(Template)] #[template(path = "nhi_race_procyons.html")] pub struct NhiRaceProcyonsTemplate;
+#[derive(Template)] #[template(path = "nhi_race_vegans.html")] pub struct NhiRaceVegansTemplate;
 #[derive(Template)] #[template(path = "nhi_race_tau_cetians.html")] pub struct NhiRaceTauCetiansTemplate;
+#[derive(Template)] #[template(path = "nhi_race_orion_group.html")] pub struct NhiRaceOrionGroupTemplate;
+#[derive(Template)] #[template(path = "nhi_race_alpha_centaurians.html")] pub struct NhiRaceAlphaCentauriansTemplate;
 #[derive(Template)] #[template(path = "nhi_race_ebens.html")] pub struct NhiRaceEbensTemplate;
 #[derive(Template)] #[template(path = "nhi_race_ummites.html")] pub struct NhiRaceUmmitesTemplate;
 #[derive(Template)] #[template(path = "nhi_race_shadow_beings.html")] pub struct NhiRaceShadowBeingsTemplate;

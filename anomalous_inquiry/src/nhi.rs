@@ -8,11 +8,18 @@ use crate::templates::{
     NhiAquaticTemplate, NhiOtherTemplate, NhiDocumentationTemplate,
     NhiRacesTemplate,
     NhiRaceGreysTemplate, NhiRaceTallWhitesTemplate, NhiRaceNordicsTemplate,
+    NhiRacePleiadiansTemplate,
     NhiRaceReptiliansTemplate, NhiRaceMantidsTemplate, NhiRaceAviansTemplate,
+    NhiRaceAviansBlueTemplate, NhiRaceAviansHumanoidTemplate, NhiRaceAviansGarudaTemplate,
     NhiRaceMaitreTemplate, NhiRaceSiriansTemplate, NhiRaceArcturiansTemplate,
-    NhiRaceAndromedansTemplate, NhiRaceLyransTemplate, NhiRaceTauCetiansTemplate,
+    NhiRaceAndromedansTemplate, NhiRaceLyransTemplate,
+    NhiRaceAltairiansTemplate, NhiRaceProcyonsTemplate, NhiRaceVegansTemplate,
+    NhiRaceTauCetiansTemplate,
+    NhiRaceOrionGroupTemplate, NhiRaceAlphaCentauriansTemplate,
     NhiRaceEbensTemplate, NhiRaceUmmitesTemplate, NhiRaceShadowBeingsTemplate,
     NhiRaceAnunnakiTemplate, NhiRaceEgarotTemplate, NhiRaceSolipsiRaiTemplate,
+    NhiInsectoidsTemplate, NhiInsectoidsMantidsTemplate, NhiInsectoidsInsectoidsTemplate,
+    NhiInsectoidsMantoidsTemplate, NhiInsectoidsItipuriansTemplate, NhiInsectoidsKlermersTemplate,
     NhiReptilianGeneralTemplate, NhiReptilianDraconianTemplate,
     NhiReptilianAlphaDraconianTemplate, NhiReptilianLacertianTemplate,
     NhiReptilianIguanoidTemplate, NhiReptilianHydraTemplate,
@@ -40,6 +47,7 @@ pub fn routes() -> Router<AppState> {
         .route("/races/greys", get(race_greys))
         .route("/races/tall-whites", get(race_tall_whites))
         .route("/races/nordics", get(race_nordics))
+        .route("/races/pleiadians", get(race_pleiadians))
         .route("/races/reptilians", get(race_reptilians))
         .route("/races/reptilians/general", get(reptilian_general))
         .route("/races/reptilians/draconians", get(reptilian_draconians))
@@ -52,18 +60,32 @@ pub fn routes() -> Router<AppState> {
         .route("/races/reptilians/dragonworms", get(reptilian_dragonworms))
         .route("/races/mantids", get(race_mantids))
         .route("/races/avians", get(race_avians))
+        .route("/races/avians/blue-avians", get(race_avians_blue))
+        .route("/races/avians/avian-humanoids", get(race_avians_humanoid))
+        .route("/races/avians/garuda", get(race_avians_garuda))
         .route("/races/maitre", get(race_maitre))
         .route("/races/sirians", get(race_sirians))
         .route("/races/arcturians", get(race_arcturians))
         .route("/races/andromedans", get(race_andromedans))
         .route("/races/lyrans", get(race_lyrans))
+        .route("/races/altairians", get(race_altairians))
+        .route("/races/procyons", get(race_procyons))
+        .route("/races/vegans", get(race_vegans))
         .route("/races/tau-cetians", get(race_tau_cetians))
+        .route("/races/orion-group", get(race_orion_group))
+        .route("/races/alpha-centaurians", get(race_alpha_centaurians))
         .route("/races/ebens", get(race_ebens))
         .route("/races/ummites", get(race_ummites))
         .route("/races/shadow-beings", get(race_shadow_beings))
         .route("/races/anunnaki", get(race_anunnaki))
         .route("/races/egarot", get(race_egarot))
         .route("/races/solipsi-rai", get(race_solipsi_rai))
+        .route("/insectoids", get(insectoids))
+        .route("/insectoids/mantids", get(insectoids_mantids))
+        .route("/insectoids/insectoids", get(insectoids_insectoids))
+        .route("/insectoids/mantoids", get(insectoids_mantoids))
+        .route("/insectoids/itipurians", get(insectoids_itipurians))
+        .route("/insectoids/klermers", get(insectoids_klermers))
 }
 
 async fn hub()              -> impl IntoResponse { HtmlTemplate(NhiTemplate) }
@@ -84,21 +106,36 @@ async fn races()            -> impl IntoResponse { HtmlTemplate(NhiRacesTemplate
 async fn race_greys()       -> impl IntoResponse { HtmlTemplate(NhiRaceGreysTemplate) }
 async fn race_tall_whites() -> impl IntoResponse { HtmlTemplate(NhiRaceTallWhitesTemplate) }
 async fn race_nordics()     -> impl IntoResponse { HtmlTemplate(NhiRaceNordicsTemplate) }
+async fn race_pleiadians()  -> impl IntoResponse { HtmlTemplate(NhiRacePleiadiansTemplate) }
 async fn race_reptilians()  -> impl IntoResponse { HtmlTemplate(NhiRaceReptiliansTemplate) }
 async fn race_mantids()     -> impl IntoResponse { HtmlTemplate(NhiRaceMantidsTemplate) }
 async fn race_avians()      -> impl IntoResponse { HtmlTemplate(NhiRaceAviansTemplate) }
+async fn race_avians_blue() -> impl IntoResponse { HtmlTemplate(NhiRaceAviansBlueTemplate) }
+async fn race_avians_humanoid() -> impl IntoResponse { HtmlTemplate(NhiRaceAviansHumanoidTemplate) }
+async fn race_avians_garuda() -> impl IntoResponse { HtmlTemplate(NhiRaceAviansGarudaTemplate) }
 async fn race_maitre()      -> impl IntoResponse { HtmlTemplate(NhiRaceMaitreTemplate) }
 async fn race_sirians()     -> impl IntoResponse { HtmlTemplate(NhiRaceSiriansTemplate) }
 async fn race_arcturians()  -> impl IntoResponse { HtmlTemplate(NhiRaceArcturiansTemplate) }
 async fn race_andromedans() -> impl IntoResponse { HtmlTemplate(NhiRaceAndromedansTemplate) }
 async fn race_lyrans()      -> impl IntoResponse { HtmlTemplate(NhiRaceLyransTemplate) }
+async fn race_altairians()  -> impl IntoResponse { HtmlTemplate(NhiRaceAltairiansTemplate) }
+async fn race_procyons()    -> impl IntoResponse { HtmlTemplate(NhiRaceProcyonsTemplate) }
+async fn race_vegans()      -> impl IntoResponse { HtmlTemplate(NhiRaceVegansTemplate) }
 async fn race_tau_cetians() -> impl IntoResponse { HtmlTemplate(NhiRaceTauCetiansTemplate) }
+async fn race_orion_group() -> impl IntoResponse { HtmlTemplate(NhiRaceOrionGroupTemplate) }
+async fn race_alpha_centaurians() -> impl IntoResponse { HtmlTemplate(NhiRaceAlphaCentauriansTemplate) }
 async fn race_ebens()       -> impl IntoResponse { HtmlTemplate(NhiRaceEbensTemplate) }
 async fn race_ummites()     -> impl IntoResponse { HtmlTemplate(NhiRaceUmmitesTemplate) }
 async fn race_shadow_beings() -> impl IntoResponse { HtmlTemplate(NhiRaceShadowBeingsTemplate) }
 async fn race_anunnaki()    -> impl IntoResponse { HtmlTemplate(NhiRaceAnunnakiTemplate) }
 async fn race_egarot()      -> impl IntoResponse { HtmlTemplate(NhiRaceEgarotTemplate) }
 async fn race_solipsi_rai() -> impl IntoResponse { HtmlTemplate(NhiRaceSolipsiRaiTemplate) }
+async fn insectoids()             -> impl IntoResponse { HtmlTemplate(NhiInsectoidsTemplate) }
+async fn insectoids_mantids()     -> impl IntoResponse { HtmlTemplate(NhiInsectoidsMantidsTemplate) }
+async fn insectoids_insectoids()  -> impl IntoResponse { HtmlTemplate(NhiInsectoidsInsectoidsTemplate) }
+async fn insectoids_mantoids()    -> impl IntoResponse { HtmlTemplate(NhiInsectoidsMantoidsTemplate) }
+async fn insectoids_itipurians()  -> impl IntoResponse { HtmlTemplate(NhiInsectoidsItipuriansTemplate) }
+async fn insectoids_klermers()    -> impl IntoResponse { HtmlTemplate(NhiInsectoidsKlermersTemplate) }
 
 async fn reptilian_general()          -> impl IntoResponse { HtmlTemplate(NhiReptilianGeneralTemplate) }
 async fn reptilian_draconians()       -> impl IntoResponse { HtmlTemplate(NhiReptilianDraconianTemplate) }

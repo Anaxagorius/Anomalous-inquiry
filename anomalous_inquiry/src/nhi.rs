@@ -10,6 +10,7 @@ use crate::templates::{
     NhiRaceGreysTemplate, NhiRaceTallWhitesTemplate, NhiRaceNordicsTemplate,
     NhiRacePleiadiansTemplate,
     NhiRaceReptiliansTemplate, NhiRaceMantidsTemplate, NhiRaceAviansTemplate,
+    NhiRaceAviansBlueTemplate, NhiRaceAviansHumanoidTemplate, NhiRaceAviansGarudaTemplate,
     NhiRaceMaitreTemplate, NhiRaceSiriansTemplate, NhiRaceArcturiansTemplate,
     NhiRaceAndromedansTemplate, NhiRaceLyransTemplate,
     NhiRaceAltairiansTemplate, NhiRaceProcyonsTemplate, NhiRaceVegansTemplate,
@@ -43,6 +44,9 @@ pub fn routes() -> Router<AppState> {
         .route("/races/reptilians", get(race_reptilians))
         .route("/races/mantids", get(race_mantids))
         .route("/races/avians", get(race_avians))
+        .route("/races/avians/blue-avians", get(race_avians_blue))
+        .route("/races/avians/avian-humanoids", get(race_avians_humanoid))
+        .route("/races/avians/garuda", get(race_avians_garuda))
         .route("/races/maitre", get(race_maitre))
         .route("/races/sirians", get(race_sirians))
         .route("/races/arcturians", get(race_arcturians))
@@ -84,6 +88,9 @@ async fn race_pleiadians()  -> impl IntoResponse { HtmlTemplate(NhiRacePleiadian
 async fn race_reptilians()  -> impl IntoResponse { HtmlTemplate(NhiRaceReptiliansTemplate) }
 async fn race_mantids()     -> impl IntoResponse { HtmlTemplate(NhiRaceMantidsTemplate) }
 async fn race_avians()      -> impl IntoResponse { HtmlTemplate(NhiRaceAviansTemplate) }
+async fn race_avians_blue() -> impl IntoResponse { HtmlTemplate(NhiRaceAviansBlueTemplate) }
+async fn race_avians_humanoid() -> impl IntoResponse { HtmlTemplate(NhiRaceAviansHumanoidTemplate) }
+async fn race_avians_garuda() -> impl IntoResponse { HtmlTemplate(NhiRaceAviansGarudaTemplate) }
 async fn race_maitre()      -> impl IntoResponse { HtmlTemplate(NhiRaceMaitreTemplate) }
 async fn race_sirians()     -> impl IntoResponse { HtmlTemplate(NhiRaceSiriansTemplate) }
 async fn race_arcturians()  -> impl IntoResponse { HtmlTemplate(NhiRaceArcturiansTemplate) }

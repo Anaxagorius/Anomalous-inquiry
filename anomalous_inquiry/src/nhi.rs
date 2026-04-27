@@ -28,6 +28,8 @@ use crate::templates::{
     NhiHybridHumanGreyTemplate, NhiHybridGreyReptilianTemplate, NhiHybridAdamicEvadamicTemplate,
     NhiHybridElsElTemplate, NhiHybridZetaHumansTemplate, NhiHybridHubridsTemplate,
     NhiHybridSassaniTemplate,
+    NhiEnergyTemplate, NhiEnergyEnergyzoa, NhiEnergyLightBeings, NhiEnergyPlasma,
+    NhiEnergyOrbs, NhiEnergyShadowBeings, NhiEnergyAstral, NhiEnergyInterdimensional,
 };
 
 pub fn routes() -> Router<AppState> {
@@ -96,6 +98,14 @@ pub fn routes() -> Router<AppState> {
         .route("/insectoids/mantoids", get(insectoids_mantoids))
         .route("/insectoids/itipurians", get(insectoids_itipurians))
         .route("/insectoids/klermers", get(insectoids_klermers))
+        .route("/energy", get(energy))
+        .route("/energy/energyzoa", get(energy_energyzoa))
+        .route("/energy/light-beings", get(energy_light_beings))
+        .route("/energy/plasma-entities", get(energy_plasma))
+        .route("/energy/orbs", get(energy_orbs))
+        .route("/energy/shadow-beings", get(energy_shadow_beings))
+        .route("/energy/astral-entities", get(energy_astral))
+        .route("/energy/interdimensional-intelligences", get(energy_interdimensional))
 }
 
 async fn hub()              -> impl IntoResponse { HtmlTemplate(NhiTemplate) }
@@ -153,6 +163,15 @@ async fn insectoids_insectoids()  -> impl IntoResponse { HtmlTemplate(NhiInsecto
 async fn insectoids_mantoids()    -> impl IntoResponse { HtmlTemplate(NhiInsectoidsMantoidsTemplate) }
 async fn insectoids_itipurians()  -> impl IntoResponse { HtmlTemplate(NhiInsectoidsItipuriansTemplate) }
 async fn insectoids_klermers()    -> impl IntoResponse { HtmlTemplate(NhiInsectoidsKlermersTemplate) }
+
+async fn energy()                         -> impl IntoResponse { HtmlTemplate(NhiEnergyTemplate) }
+async fn energy_energyzoa()               -> impl IntoResponse { HtmlTemplate(NhiEnergyEnergyzoa) }
+async fn energy_light_beings()            -> impl IntoResponse { HtmlTemplate(NhiEnergyLightBeings) }
+async fn energy_plasma()                  -> impl IntoResponse { HtmlTemplate(NhiEnergyPlasma) }
+async fn energy_orbs()                    -> impl IntoResponse { HtmlTemplate(NhiEnergyOrbs) }
+async fn energy_shadow_beings()           -> impl IntoResponse { HtmlTemplate(NhiEnergyShadowBeings) }
+async fn energy_astral()                  -> impl IntoResponse { HtmlTemplate(NhiEnergyAstral) }
+async fn energy_interdimensional()        -> impl IntoResponse { HtmlTemplate(NhiEnergyInterdimensional) }
 
 async fn reptilian_general()          -> impl IntoResponse { HtmlTemplate(NhiReptilianGeneralTemplate) }
 async fn reptilian_draconians()       -> impl IntoResponse { HtmlTemplate(NhiReptilianDraconianTemplate) }

@@ -185,6 +185,7 @@ async fn energy_astral()                  -> impl IntoResponse { HtmlTemplate(Nh
 async fn energy_interdimensional()        -> impl IntoResponse { HtmlTemplate(NhiEnergyInterdimensional) }
 
 
+
 async fn reptilian_general()          -> impl IntoResponse { HtmlTemplate(NhiReptilianGeneralTemplate) }
 async fn reptilian_draconians()       -> impl IntoResponse { HtmlTemplate(NhiReptilianDraconianTemplate) }
 async fn reptilian_alpha_draconians() -> impl IntoResponse { HtmlTemplate(NhiReptilianAlphaDraconianTemplate) }

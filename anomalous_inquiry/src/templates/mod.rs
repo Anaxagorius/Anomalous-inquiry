@@ -151,6 +151,16 @@ use crate::state::{Organization, TimelineEvent, JournalEntry};
 #[derive(Template)] #[template(path = "nhi_insectoids_itipurians.html")] pub struct NhiInsectoidsItipuriansTemplate;
 #[derive(Template)] #[template(path = "nhi_insectoids_klermers.html")] pub struct NhiInsectoidsKlermersTemplate;
 
+// NHI Energy / Non-Corporeal Entities section
+#[derive(Template)] #[template(path = "nhi_energy.html")] pub struct NhiEnergyTemplate;
+#[derive(Template)] #[template(path = "nhi_energy_energyzoa.html")] pub struct NhiEnergyEnergyzoa;
+#[derive(Template)] #[template(path = "nhi_energy_light_beings.html")] pub struct NhiEnergyLightBeings;
+#[derive(Template)] #[template(path = "nhi_energy_plasma.html")] pub struct NhiEnergyPlasma;
+#[derive(Template)] #[template(path = "nhi_energy_orbs.html")] pub struct NhiEnergyOrbs;
+#[derive(Template)] #[template(path = "nhi_energy_shadow_beings.html")] pub struct NhiEnergyShadowBeings;
+#[derive(Template)] #[template(path = "nhi_energy_astral.html")] pub struct NhiEnergyAstral;
+#[derive(Template)] #[template(path = "nhi_energy_interdimensional.html")] pub struct NhiEnergyInterdimensional;
+
 // NHI Species & Race Index
 #[derive(Template)] #[template(path = "nhi_races.html")] pub struct NhiRacesTemplate;
 
